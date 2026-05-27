@@ -6,8 +6,8 @@ export default function OriginStory() {
       <div className={`container ${styles.grid}`}>
         <div className={styles.visualContent}>
           <img 
-            src="/photo5.webp" 
-            alt="Vintage woodworking tools" 
+            src="/the_origin_desk.webp" 
+            alt="Albizia Woods custom desk design" 
             className={styles.image}
           loading="lazy" decoding="async" />
         </div>
