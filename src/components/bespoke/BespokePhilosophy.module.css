@@ -4,10 +4,9 @@
   color: var(--text-primary);
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  gap: var(--space-xl);
+.textCol {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .label {
@@ -17,8 +16,7 @@
   font-size: 0.75rem;
   letter-spacing: 0.15em;
   color: var(--text-secondary);
-  position: sticky;
-  top: 100px;
+  margin-bottom: var(--space-md);
 }
 
 .textCol h2 {
@@ -27,6 +25,7 @@
   line-height: 1.15;
   margin-bottom: var(--space-xxl);
   font-weight: 400;
+  max-width: 1000px;
 }
 
 .editorial {
@@ -44,16 +43,6 @@
 }
 
 @media (max-width: 900px) {
-  .grid {
-    grid-template-columns: 1fr;
-    gap: var(--space-lg);
-  }
-  
-  .label {
-    position: static;
-    margin-bottom: var(--space-sm);
-  }
-  
   .editorial {
     grid-template-columns: 1fr;
   }

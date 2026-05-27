@@ -3,11 +3,9 @@ import styles from './BespokePhilosophy.module.css';
 export default function BespokePhilosophy() {
   return (
     <section className={styles.philosophy}>
-      <div className={`container ${styles.grid}`}>
-        <div className={styles.labelCol}>
-          <span className={styles.label}>Bespoke Philosophy</span>
-        </div>
+      <div className={`container`}>
         <div className={styles.textCol}>
+          <span className={styles.label}>Bespoke Philosophy</span>
           <h2>A piece of furniture should not merely fill a space; it should anchor the architecture and elevate the ritual of living.</h2>
           
           <div className={styles.editorial}>
