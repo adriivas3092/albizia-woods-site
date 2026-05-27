@@ -1,0 +1,74 @@
+.context {
+  padding: 15vh 0;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xxl);
+  align-items: center;
+}
+
+.imageColPrimary {
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.imageColPrimary img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contentCol {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+.textBlock {
+  padding-left: var(--space-lg);
+}
+
+.textBlock h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.5vw, 3.5rem);
+  font-style: italic;
+  margin-bottom: var(--space-md);
+}
+
+.textBlock p {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.imageColSecondary {
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.imageColSecondary img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+  .imageColPrimary {
+    height: 60vh;
+  }
+  .textBlock {
+    padding-left: 0;
+  }
+}

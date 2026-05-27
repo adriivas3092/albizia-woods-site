@@ -1,0 +1,56 @@
+.identity {
+  position: relative;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  padding-bottom: var(--space-xxl);
+}
+
+.fullImage {
+  width: 100vw;
+  height: 70vh;
+  margin-bottom: var(--space-xl);
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.textContent {
+  max-width: 600px;
+  padding-right: var(--space-lg);
+}
+
+.label {
+  display: block;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: var(--space-md);
+}
+
+.textContent h2 {
+  font-size: clamp(2rem, 3vw, 3.5rem);
+  margin-bottom: var(--space-md);
+}
+
+.textContent p {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.8);
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .textContent {
+    padding-right: 0;
+  }
+}

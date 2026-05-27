@@ -1,0 +1,73 @@
+.philosophy {
+  padding: var(--space-xxl) 0;
+  background-color: var(--bg-primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xxl);
+  align-items: center;
+}
+
+.visualContent {
+  position: relative;
+  height: 500px;
+  background-color: var(--bg-secondary);
+  overflow: hidden;
+}
+
+.textureBg {
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  width: 140%;
+  height: 140%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.textContent {
+  position: relative;
+  z-index: 1;
+}
+
+.label {
+  display: block;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+.textContent h2 {
+  font-size: clamp(2rem, 3vw, 3.5rem);
+  color: var(--text-primary);
+  margin-bottom: var(--space-lg);
+}
+
+.textContent p {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 90%;
+  line-height: 1.8;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+  .visualContent {
+    height: 300px;
+    order: 2;
+  }
+  .textContent {
+    order: 1;
+  }
+}

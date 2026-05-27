@@ -1,0 +1,91 @@
+.cta {
+  position: relative;
+  padding: 15vh 0 5vh 0;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  text-align: center;
+  overflow: hidden;
+}
+
+.textureOverlay {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.label {
+  display: block;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: rgba(255,255,255,0.5);
+  margin-bottom: var(--space-md);
+}
+
+.content h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  font-style: italic;
+  margin-bottom: var(--space-md);
+}
+
+.content p {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: var(--space-xl);
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+}
+
+.btnPrimary, .btnSecondary {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btnPrimary {
+  background-color: var(--text-light);
+  color: var(--bg-dark);
+}
+
+.btnPrimary:hover {
+  background-color: rgba(255,255,255,0.8);
+}
+
+.btnSecondary {
+  background-color: transparent;
+  color: var(--text-light);
+  border: 1px solid var(--text-light);
+}
+
+.btnSecondary:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+@media (max-width: 600px) {
+  .actions {
+    flex-direction: column;
+  }
+}

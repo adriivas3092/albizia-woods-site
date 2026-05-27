@@ -1,0 +1,121 @@
+.processSection {
+  padding: var(--space-xxl) 0;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto var(--space-xl);
+}
+
+.label {
+  display: block;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-sm);
+}
+
+.header h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3vw, 3.5rem);
+  line-height: 1.1;
+  margin-bottom: var(--space-md);
+  font-style: italic;
+}
+
+.header p {
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+}
+
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.circleStep {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.1);
+  background-color: var(--bg-primary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1.5rem;
+  transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+}
+
+.circleStep:hover {
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.06);
+  border-color: var(--text-primary);
+}
+
+.stepNum {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.circleStep h3 {
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  font-weight: 400;
+  margin-bottom: 0.25rem;
+  line-height: 1.2;
+}
+
+.esTitle {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: 0.75rem;
+}
+
+.team {
+  font-family: var(--font-sans);
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-primary);
+  opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .circleStep {
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+  }
+  
+  .circleStep h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .circleStep {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    padding: 1.5rem;
+    aspect-ratio: auto;
+  }
+}

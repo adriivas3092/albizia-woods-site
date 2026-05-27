@@ -1,0 +1,120 @@
+.formSection {
+  padding: 10vh 0 15vh 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: var(--space-xl);
+  text-align: center;
+}
+
+.header h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3vw, 2.5rem);
+  font-weight: 400;
+  margin-bottom: var(--space-sm);
+}
+
+.header p {
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputGroup label {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+}
+
+.inputGroup input,
+.inputGroup select,
+.inputGroup textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding: 0.75rem 0;
+  font-family: var(--font-sans);
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.inputGroup input::placeholder,
+.inputGroup textarea::placeholder {
+  color: rgba(0,0,0,0.2);
+}
+
+.inputGroup select {
+  cursor: pointer;
+  appearance: none;
+  border-radius: 0;
+}
+
+.inputGroup input:focus,
+.inputGroup select:focus,
+.inputGroup textarea:focus {
+  border-bottom-color: var(--text-primary);
+}
+
+.inputGroup textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submitRow {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-md);
+}
+
+.submitBtn {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  border: none;
+  padding: 1.2rem 4rem;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.submitBtn:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}

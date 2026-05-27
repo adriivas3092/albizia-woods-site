@@ -1,0 +1,114 @@
+.consultation {
+  padding: 15vh 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: var(--space-xxl);
+}
+
+.intro {
+  padding-right: var(--space-lg);
+}
+
+.intro h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  font-style: italic;
+  margin-bottom: var(--space-md);
+}
+
+.intro p {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.formContainer {
+  background-color: var(--bg-secondary);
+  padding: var(--space-xl);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+  padding: 0.75rem 0;
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--text-primary);
+  transition: border-color 0.3s ease;
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-bottom-color: var(--text-primary);
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+  color: rgba(0,0,0,0.3);
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+}
+
+.submitBtn {
+  margin-top: var(--space-md);
+  padding: 1rem 2rem;
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+  border: none;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.submitBtn:hover {
+  background-color: var(--text-secondary);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+  .intro {
+    padding-right: 0;
+  }
+  .formContainer {
+    padding: var(--space-lg);
+  }
+}

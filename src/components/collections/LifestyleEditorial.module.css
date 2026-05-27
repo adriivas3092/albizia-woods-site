@@ -1,0 +1,50 @@
+.lifestyle {
+  position: relative;
+  background-color: var(--bg-primary);
+  padding-bottom: var(--space-xxl);
+}
+
+.imageContainer {
+  width: 100vw;
+  height: 80vh;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Parallax illusion */
+  background-attachment: fixed;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: calc(var(--space-xl) * -1);
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  background-color: var(--bg-primary);
+  padding: var(--space-xl) var(--space-xxl);
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 3.5vw, 3.5rem);
+  text-align: center;
+  max-width: 900px;
+  color: var(--text-primary);
+  font-style: italic;
+  line-height: 1.3;
+  box-shadow: 0 -20px 40px rgba(248, 246, 240, 0.9);
+}
+
+@media (max-width: 768px) {
+  .imageContainer {
+    height: 60vh;
+  }
+  .title {
+    padding: var(--space-lg);
+    margin-top: calc(var(--space-lg) * -1);
+  }
+}

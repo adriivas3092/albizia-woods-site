@@ -1,0 +1,94 @@
+.materials {
+  padding: var(--space-xxl) 0;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xxl);
+}
+
+.text {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.label {
+  display: block;
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: var(--space-sm);
+}
+
+.text h2 {
+  font-family: var(--font-serif);
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+  margin-bottom: var(--space-md);
+  font-style: italic;
+}
+
+.text p {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: rgba(255,255,255,0.8);
+}
+
+.materialGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--space-md);
+}
+
+.materialCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.imageWrapper {
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+
+.imageWrapper:hover img {
+  transform: scale(1.1);
+}
+
+.materialName {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-light);
+  text-align: center;
+  opacity: 0.8;
+}
+
+@media (max-width: 1024px) {
+  .materialGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-lg);
+  }
+}
+
+@media (max-width: 600px) {
+  .materialGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
