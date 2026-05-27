@@ -1,6 +1,6 @@
 .featured {
   position: relative;
-  padding: var(--space-xxl) 0;
+  padding: var(--section-pad) 0;
   background-color: var(--bg-secondary);
   overflow: hidden;
 }
@@ -122,5 +122,11 @@
   }
   .cardSmall {
     margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .featured {
+    padding: var(--section-pad-mobile) 0;
   }
 }

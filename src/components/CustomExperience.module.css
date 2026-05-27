@@ -1,5 +1,5 @@
 .custom {
-  padding: var(--space-xxl) 0;
+  padding: var(--section-pad) 0;
   background-color: var(--bg-dark);
   color: var(--text-light);
 }
@@ -67,5 +67,11 @@
   .layout {
     grid-template-columns: 1fr;
     gap: var(--space-xl);
+  }
+}
+
+@media (max-width: 768px) {
+  .custom {
+    padding: var(--section-pad-mobile) 0;
   }
 }

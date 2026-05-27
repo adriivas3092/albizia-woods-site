@@ -1,5 +1,5 @@
 .cta {
-  padding: var(--space-xxl) 0;
+  padding: var(--section-pad) 0;
   background-color: var(--bg-primary);
   text-align: center;
 }

@@ -18,11 +18,16 @@
   --font-sans: 'Acumin Regular', 'Acumin Pro', sans-serif;
 
   /* Spacing */
-  --space-sm: 1rem;
-  --space-md: 2.5rem;
-  --space-lg: 5rem;
-  --space-xl: 10rem;
-  --space-xxl: 15rem;
+  --space-sm: 1.5rem;
+  --space-md: 3.5rem;
+  --space-lg: 6rem;
+  --space-xl: 12rem;
+  --space-xxl: 18rem;
+
+  /* Premium Section Spacing */
+  --section-pad: clamp(80px, 12vw, 150px);
+  --section-pad-desktop: 150px; 
+  --section-pad-mobile: 80px;
 }
 
 * {
@@ -63,7 +68,7 @@ a {
 
 .container {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 var(--space-md);
 }
