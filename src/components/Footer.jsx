@@ -32,8 +32,8 @@ export default function Footer() {
         <div className="container">
           <p>&copy; {new Date().getFullYear()} Albizia Woods. All rights reserved.</p>
           <div className={styles.legal}>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+            <Link to="/privacy-policy">Privacy Policy</Link>
+            <Link to="/terms-of-service">Terms of Service</Link>
           </div>
         </div>
       </div>

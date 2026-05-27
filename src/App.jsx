@@ -6,9 +6,13 @@ import CollectionsPage from './pages/CollectionsPage';
 import BespokePage from './pages/BespokePage';
 import MaterialsPage from './pages/MaterialsPage';
 import ContactPage from './pages/ContactPage';
+import PrivacyPage from './pages/PrivacyPage';
+import TermsPage from './pages/TermsPage';
+import CookieBanner from './components/CookieBanner';
 
 function App() {
   return (
+    <>
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/about" element={<AboutPage />} />
@@ -17,7 +21,11 @@ function App() {
       <Route path="/bespoke" element={<BespokePage />} />
       <Route path="/materials" element={<MaterialsPage />} />
       <Route path="/contact" element={<ContactPage />} />
+      <Route path="/privacy-policy" element={<PrivacyPage />} />
+      <Route path="/terms-of-service" element={<TermsPage />} />
     </Routes>
+    <CookieBanner />
+    </>
   );
 }
 
