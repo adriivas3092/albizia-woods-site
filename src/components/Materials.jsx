@@ -24,7 +24,7 @@ export default function Materials() {
           {MATERIALS.map((mat, index) => (
             <div key={index} className={styles.materialCard}>
               <div className={styles.imageWrapper}>
-                <<img 
+                <img 
   src={mat.image} 
   alt={`Material: ${mat.name}`} 
   loading="lazy" 
