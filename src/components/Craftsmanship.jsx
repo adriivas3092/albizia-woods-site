@@ -6,7 +6,7 @@ export default function Craftsmanship() {
       <div className={styles.textureBg} style={{ backgroundImage: 'url(/texture.webp)' }}></div>
       <div className={`container ${styles.grid}`}>
         <div className={styles.imageCol}>
-           <img src="/about_hero_1779816082184.webp" alt="Woodworker carving wood" className={styles.image} loading="lazy" decoding="async" />
+           <img src="/artisan_details.webp" alt="Woodworker carving wood with a chisel" className={styles.image} loading="lazy" decoding="async" />
         </div>
         <div className={styles.textCol}>
           <span className={styles.label}>Artisan Details</span>
