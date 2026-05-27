@@ -200,7 +200,7 @@
 
 .scrollIndicator {
   position: absolute;
-  bottom: var(--space-md);
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -250,7 +250,7 @@
     display: none;
   }
   .scrollIndicator {
-    bottom: var(--space-sm);
+    bottom: 12px;
   }
   .indicators {
     bottom: calc(var(--space-xl) * 1.5);
