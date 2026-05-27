@@ -42,13 +42,16 @@ export default function HeroSection() {
       <Header />
 
       <div className={styles.content}>
-        <h1 className="animate-fade-in">
-          Rooted in Nature.<br />
-          Crafted for Timelessness.
+        <h1 className={styles.title}>
+          <span>Rooted in Nature.</span>
+          <span>Crafted for Timelessness.</span>
         </h1>
-        <p className={`animate-fade-in ${styles.subtitle}`}>
+        <p className={styles.subtitle}>
           A Costa Rican woodworking studio dedicated to architectural furniture and natural elegance.
         </p>
+        <Link to="/projects" className={styles.cta}>
+          Explore the Portfolio
+        </Link>
       </div>
 
       <div className={styles.indicators}>

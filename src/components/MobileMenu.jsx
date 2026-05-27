@@ -19,7 +19,7 @@ export default function MobileMenu({ isOpen, onClose }) {
   return (
     <div className={styles.overlay}>
       <button className={styles.closeBtn} onClick={onClose} aria-label="Close Menu">
-        &times;
+        CLOSE
       </button>
       <nav className={styles.nav}>
         <Link to="/projects" onClick={onClose} style={{ animationDelay: '0.1s' }}>Projects</Link>

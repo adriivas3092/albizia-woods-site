@@ -1,7 +1,9 @@
 .overlay {
   position: fixed;
   inset: 0;
-  background-color: var(--bg-dark);
+  background-color: rgba(19, 73, 96, 0.9); /* Deep teal glass */
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
   color: var(--text-light);
   z-index: 1000;
   display: flex;
@@ -12,8 +14,7 @@
 }
 
 @keyframes fadeOverlay {
-  from { opacity: 0; backdrop-filter: blur(0); }
-  to { opacity: 1; backdrop-filter: blur(10px); }
+  to { opacity: 1; }
 }
 
 .closeBtn {
@@ -23,8 +24,9 @@
   background: none;
   border: none;
   color: var(--text-light);
-  font-size: 2.5rem;
-  font-weight: 300;
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
   cursor: pointer;
   transition: opacity 0.3s ease;
   z-index: 1001;
@@ -43,7 +45,8 @@
 
 .nav a {
   font-family: var(--font-serif);
-  font-size: clamp(2rem, 8vw, 4rem);
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-style: italic;
   text-decoration: none;
   color: var(--text-light);
   opacity: 0;
