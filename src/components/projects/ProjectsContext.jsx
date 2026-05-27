@@ -5,7 +5,7 @@ export default function ProjectsContext() {
     <section className={styles.context}>
       <div className={`container ${styles.grid}`}>
         <div className={styles.imageColPrimary}>
-          <img src="/Proyectos/Lat90_BAJA093.jpg" alt="Living space with Albizia Woods furniture" loading="lazy" decoding="async">
+          <img src="/Proyectos/Lat90_BAJA093.jpg" alt="Living space with Albizia Woods furniture" loading="lazy" decoding="async" />
         </div>
         
         <div className={styles.contentCol}>
@@ -19,7 +19,7 @@ export default function ProjectsContext() {
             </p>
           </div>
           <div className={styles.imageColSecondary}>
-            <img src="/Proyectos/Lat90_BAJA108.jpg" alt="Architectural integration" loading="lazy" decoding="async">
+            <img src="/Proyectos/Lat90_BAJA108.jpg" alt="Architectural integration" loading="lazy" decoding="async" />
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ export default function LifestyleEditorial() {
           alt="Warm modern Costa Rican interior" 
           className={styles.image}
           loading="lazy"
-        decoding="async">
+        decoding="async" />
       </div>
       <div className={`container ${styles.content}`}>
         <h2 className={styles.title}>

@@ -18,12 +18,12 @@ export default function ProjectsEditorial() {
         </div>
         
         <div className={styles.imageCol}>
-          <img src="/Proyectos/Lat90_BAJA088.jpg" alt="Papagayo Residence interior" className={styles.mainImage} loading="lazy" decoding="async">
+          <img src="/Proyectos/Lat90_BAJA088.jpg" alt="Papagayo Residence interior" className={styles.mainImage} loading="lazy" decoding="async" />
         </div>
       </div>
       
       <div className={styles.fullWidthImage}>
-        <img src="/Proyectos/Lat90_BAJA079.jpg" alt="Dining area details" loading="lazy" decoding="async">
+        <img src="/Proyectos/Lat90_BAJA079.jpg" alt="Dining area details" loading="lazy" decoding="async" />
       </div>
     </section>
   );

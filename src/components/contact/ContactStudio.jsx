@@ -5,7 +5,7 @@ export default function ContactStudio() {
     <section className={styles.studio}>
       <div className={`container ${styles.grid}`}>
         <div className={styles.imageCol}>
-          <img src="/photo3.jpg" alt="Albizia Woods Studio" loading="lazy" decoding="async">
+          <img src="/photo3.jpg" alt="Albizia Woods Studio" loading="lazy" decoding="async" />
         </div>
         
         <div className={styles.infoCol}>
