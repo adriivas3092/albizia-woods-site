@@ -4,7 +4,7 @@ export default function SEO({
   title = "Albizia Woods — Premium Furniture & Woodworking",
   description = "Premium furniture and woodworking inspired by Costa Rican roots, timeless craftsmanship, and architectural aesthetics.",
   url = "https://www.albiziawoods.com",
-  image = "https://www.albiziawoods.com/og-image.jpg"
+  image = "https://www.albiziawoods.com/og-image.webp"
 }) {
   return (
     <Helmet>

@@ -6,7 +6,7 @@ export default function MaterialsInspiration() {
       <div className={`container ${styles.grid}`}>
         <div className={styles.imageCol}>
           <img 
-            src="/projects_hero.png" 
+            src="/projects_hero.webp" 
             alt="Materials in architectural context" 
             loading="lazy"
             decoding="async" 

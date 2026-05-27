@@ -5,7 +5,7 @@ export default function LifestyleEditorial() {
     <section className={styles.lifestyle}>
       <div className={styles.imageContainer}>
         <img 
-          src="/IMG_7881.jpg" 
+          src="/IMG_7881.webp" 
           alt="Warm modern Costa Rican interior" 
           className={styles.image}
           loading="lazy"

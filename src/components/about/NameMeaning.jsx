@@ -14,7 +14,7 @@ export default function NameMeaning() {
         </div>
         <div className={styles.imageContainer}>
           <img 
-            src="/albizia_tree_1779816107533.png" 
+            src="/albizia_tree_1779816107533.webp" 
             alt="Albizia Niopoides Tree" 
             className={styles.image}
           loading="lazy" decoding="async" />

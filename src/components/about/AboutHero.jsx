@@ -8,7 +8,7 @@ export default function AboutHero() {
     <section className={styles.hero}>
       <div className={styles.background}>
         <img 
-          src="/photo3.jpg" 
+          src="/photo3.webp" 
           alt="Master woodworker in a luxury studio" 
           className={styles.image}
         fetchpriority="high" />

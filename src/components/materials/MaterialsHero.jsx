@@ -6,7 +6,7 @@ export default function MaterialsHero() {
     <section className={styles.hero}>
       <div className={styles.background}>
         <img 
-          src="/photo3.jpg" 
+          src="/photo3.webp" 
           alt="Close up of natural wood texture and grain" 
           className={styles.image}
         fetchpriority="high" />

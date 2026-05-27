@@ -13,7 +13,7 @@ export default function MaterialDetail() {
         </div>
         <div className={styles.visualContent}>
           <div className={styles.imageWrapper}>
-            <img src="/texture.png" alt="Close up of natural wood grain" loading="lazy" decoding="async" />
+            <img src="/texture.webp" alt="Close up of natural wood grain" loading="lazy" decoding="async" />
           </div>
         </div>
       </div>

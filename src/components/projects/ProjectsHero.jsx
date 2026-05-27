@@ -6,7 +6,7 @@ export default function ProjectsHero() {
     <section className={styles.hero}>
       <div className={styles.background}>
         <img 
-          src="/Proyectos/Lat90_BAJA080.jpg" 
+          src="/Proyectos/Lat90_BAJA080.webp" 
           alt="Architectural space" 
           className={styles.image}
         fetchpriority="high" />

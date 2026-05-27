@@ -8,7 +8,7 @@ export default function CollectionsHero() {
     <section className={styles.hero}>
       <div className={styles.background}>
         <img 
-          src="/photo4.jpg" 
+          src="/photo4.webp" 
           alt="Premium architectural spaces by Albizia Woods" 
           className={styles.image}
         fetchpriority="high" />

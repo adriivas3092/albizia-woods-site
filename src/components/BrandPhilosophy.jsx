@@ -4,7 +4,7 @@ import ScrollReveal from './ScrollReveal';
 export default function BrandPhilosophy() {
   return (
     <section className={styles.philosophy}>
-      <div className={styles.textureBg} style={{ backgroundImage: 'url(/texture.png)' }}></div>
+      <div className={styles.textureBg} style={{ backgroundImage: 'url(/texture.webp)' }}></div>
       <div className={`container ${styles.grid}`}>
         <ScrollReveal className={styles.textContent}>
           <span className={styles.label}>Our Philosophy</span>

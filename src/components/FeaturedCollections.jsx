@@ -4,12 +4,12 @@ import ScrollReveal from './ScrollReveal';
 
 const COLLECTIONS = [
   {
-    image: '/Proyectos/photo1.jpg',
+    image: '/Proyectos/photo1.webp',
     title: 'The Nosara Series',
     desc: 'Low-slung profiles and tactile surfaces, inspired by the dry tropics.'
   },
   {
-    image: '/Proyectos/photo2.jpg',
+    image: '/Proyectos/photo2.webp',
     title: 'San José Modernism',
     desc: 'Architectural lines and refined joinery for the urban sanctuary.'
   }

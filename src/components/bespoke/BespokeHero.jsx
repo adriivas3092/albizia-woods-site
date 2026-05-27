@@ -6,7 +6,7 @@ export default function BespokeHero() {
     <section className={styles.hero}>
       <div className={styles.background}>
         <img 
-          src="/Proyectos/Lat90_BAJA088.jpg" 
+          src="/Proyectos/Lat90_BAJA088.webp" 
           alt="Custom architectural woodwork" 
           className={styles.image}
         fetchpriority="high" />

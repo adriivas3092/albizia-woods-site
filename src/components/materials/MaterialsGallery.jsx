@@ -1,10 +1,10 @@
 import styles from './MaterialsGallery.module.css';
 
 const MATERIALS = [
-  { name: 'Guanacaste', type: 'Solid Wood', image: '/photo2.jpg', desc: 'Renowned for its dramatic, sweeping grain patterns and rich interplay of honey and deep chocolate tones.' },
-  { name: 'Brushed Brass', type: 'Metal Finish', image: '/material_metal.png', desc: 'A warm, tactile metal finish that develops a unique, subtle patina over time.' },
-  { name: 'Travertine', type: 'Natural Stone', image: '/material_piedra.png', desc: 'An organic, porous stone that grounds our lighter pieces with architectural mass.' },
-  { name: 'Bouclé', type: 'Textile', image: '/material_tapiceria.png', desc: 'A highly textured, sensory fabric that introduces softness against rigid wooden forms.' }
+  { name: 'Guanacaste', type: 'Solid Wood', image: '/photo2.webp', desc: 'Renowned for its dramatic, sweeping grain patterns and rich interplay of honey and deep chocolate tones.' },
+  { name: 'Brushed Brass', type: 'Metal Finish', image: '/material_metal.webp', desc: 'A warm, tactile metal finish that develops a unique, subtle patina over time.' },
+  { name: 'Travertine', type: 'Natural Stone', image: '/material_piedra.webp', desc: 'An organic, porous stone that grounds our lighter pieces with architectural mass.' },
+  { name: 'Bouclé', type: 'Textile', image: '/material_tapiceria.webp', desc: 'A highly textured, sensory fabric that introduces softness against rigid wooden forms.' }
 ];
 
 export default function MaterialsGallery() {

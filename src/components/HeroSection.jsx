@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom';
 import Header from './Header';
 
 const CAROUSEL_IMAGES = [
-  '/Proyectos/Lat90_BAJA070.jpg',
-  '/Proyectos/Lat90_BAJA079.jpg',
-  '/Proyectos/Lat90_BAJA080.jpg',
-  '/Proyectos/Lat90_BAJA088.jpg',
-  '/Proyectos/Lat90_BAJA093.jpg',
-  '/Proyectos/Lat90_BAJA108.jpg',
-  '/Proyectos/photo1.jpg',
-  '/Proyectos/photo2.jpg',
-  '/Proyectos/photo3.jpg'
+  '/Proyectos/Lat90_BAJA070.webp',
+  '/Proyectos/Lat90_BAJA079.webp',
+  '/Proyectos/Lat90_BAJA080.webp',
+  '/Proyectos/Lat90_BAJA088.webp',
+  '/Proyectos/Lat90_BAJA093.webp',
+  '/Proyectos/Lat90_BAJA108.webp',
+  '/Proyectos/photo1.webp',
+  '/Proyectos/photo2.webp',
+  '/Proyectos/photo3.webp'
 ];
 
 export default function HeroSection() {

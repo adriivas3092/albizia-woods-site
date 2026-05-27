@@ -6,7 +6,7 @@ export default function OriginStory() {
       <div className={`container ${styles.grid}`}>
         <div className={styles.visualContent}>
           <img 
-            src="/photo5.jpg" 
+            src="/photo5.webp" 
             alt="Vintage woodworking tools" 
             className={styles.image}
           loading="lazy" decoding="async" />

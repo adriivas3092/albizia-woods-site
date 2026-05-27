@@ -6,7 +6,7 @@ export default function ContactHero() {
     <section className={styles.hero}>
       <div className={styles.background}>
         <img 
-          src="/Proyectos/Lat90_BAJA093.jpg" 
+          src="/Proyectos/Lat90_BAJA093.webp" 
           alt="Warm architectural living space" 
           className={styles.image}
         fetchpriority="high" />

@@ -13,7 +13,7 @@ export default function WorkshopProcess() {
         </div>
         <div className={styles.imageCol}>
            <img 
-            src="/workshop_process_1779816120385.png" 
+            src="/workshop_process_1779816120385.webp" 
             alt="Woodworking chisel macro shot" 
             className={styles.image}
           loading="lazy" decoding="async" />

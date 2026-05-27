@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default function ProjectsInquiryCTA() {
   return (
     <section className={styles.cta}>
-      <div className={styles.textureOverlay} style={{ backgroundImage: 'url(/texture.png)' }}></div>
+      <div className={styles.textureOverlay} style={{ backgroundImage: 'url(/texture.webp)' }}></div>
       <div className={`container ${styles.content}`}>
         <span className={styles.label}>Next Steps</span>
         <h2>Envision your space.</h2>

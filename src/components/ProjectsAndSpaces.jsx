@@ -3,27 +3,27 @@ import ScrollReveal from './ScrollReveal';
 
 const PROJECTS = [
   {
-    image: '/Proyectos/Lat90_BAJA070.jpg',
+    image: '/Proyectos/Lat90_BAJA070.webp',
     title: 'Casa Tropical',
     subtitle: 'Residential • Nosara'
   },
   {
-    image: '/Proyectos/Lat90_BAJA079.jpg',
+    image: '/Proyectos/Lat90_BAJA079.webp',
     title: 'Villa Papagayo',
     subtitle: 'Hospitality • Guanacaste'
   },
   {
-    image: '/Proyectos/Lat90_BAJA080.jpg',
+    image: '/Proyectos/Lat90_BAJA080.webp',
     title: 'Estudio Central',
     subtitle: 'Commercial • San José'
   },
   {
-    image: '/Proyectos/Lat90_BAJA088.jpg',
+    image: '/Proyectos/Lat90_BAJA088.webp',
     title: 'Reserva Conchal',
     subtitle: 'Residential • Brasilito'
   },
   {
-    image: '/Proyectos/Lat90_BAJA108.jpg',
+    image: '/Proyectos/Lat90_BAJA108.webp',
     title: 'Boutique Hotel',
     subtitle: 'Hospitality • Santa Teresa'
   }

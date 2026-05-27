@@ -10,7 +10,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={`container ${styles.layout}`}>
         <div className={styles.brand}>
-          <img src="/logo.png" alt="Albizia Woods" className={styles.logo} loading="lazy" decoding="async" />
+          <img src="/logo.webp" alt="Albizia Woods" className={styles.logo} loading="lazy" decoding="async" />
           <p className={styles.philosophy}>Rooted in Nature.<br/>Crafted for Timelessness.</p>
         </div>
         

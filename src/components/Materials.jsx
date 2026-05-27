@@ -1,11 +1,11 @@
 import styles from './Materials.module.css';
 
 const MATERIALS = [
-  { name: 'Metal', image: '/material_metal.png' },
-  { name: 'Vidrio', image: '/material_vidrio.png' },
-  { name: 'Tapicería', image: '/material_tapiceria.png' },
-  { name: 'Piedra', image: '/material_piedra.png' },
-  { name: 'Iluminación', image: '/material_iluminacion.png' }
+  { name: 'Metal', image: '/material_metal.webp' },
+  { name: 'Vidrio', image: '/material_vidrio.webp' },
+  { name: 'Tapicería', image: '/material_tapiceria.webp' },
+  { name: 'Piedra', image: '/material_piedra.webp' },
+  { name: 'Iluminación', image: '/material_iluminacion.webp' }
 ];
 
 export default function Materials() {

@@ -5,7 +5,7 @@ export default function CostaRicanIdentity() {
     <section className={styles.identity}>
       <div className={styles.fullImage}>
          <img 
-            src="/artboard1.png" 
+            src="/artboard1.webp" 
             alt="Costa Rican tropical modernism architecture" 
             className={styles.image}
           loading="lazy" decoding="async" />

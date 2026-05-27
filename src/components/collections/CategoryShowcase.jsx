@@ -4,25 +4,25 @@ const CATEGORIES = [
   {
     title: 'The Living Room',
     description: 'Anchor the spaces where life unfolds with sculptural seating and solid architectural tables.',
-    image: '/photo1.jpg',
+    image: '/photo1.webp',
     align: 'left'
   },
   {
     title: 'The Dining Experience',
     description: 'Handcrafted heirlooms designed for gathering, merging organic textures with geometric precision.',
-    image: '/photo2.jpg',
+    image: '/photo2.webp',
     align: 'right'
   },
   {
     title: 'Rest & Sanctuary',
     description: 'Minimalist bedroom furnishings that cultivate calm, rooted deeply in natural materiality.',
-    image: '/IMG_7872.jpg',
+    image: '/IMG_7872.webp',
     align: 'left'
   },
   {
     title: 'Statement Objects',
     description: 'One-of-a-kind bespoke creations that blur the line between furniture and art.',
-    image: '/IMG_7835.jpg',
+    image: '/IMG_7835.webp',
     align: 'right'
   }
 ];

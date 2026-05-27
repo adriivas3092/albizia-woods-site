@@ -5,7 +5,7 @@ export default function AboutPhilosophy() {
     <section className={styles.philosophy}>
       <div className={`container ${styles.grid}`}>
         <div className={styles.visualContent}>
-          <div className={styles.textureBg} style={{ backgroundImage: 'url(/texture.png)' }}></div>
+          <div className={styles.textureBg} style={{ backgroundImage: 'url(/texture.webp)' }}></div>
         </div>
         <div className={styles.textContent}>
           <span className={styles.label}>Design Philosophy</span>
