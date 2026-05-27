@@ -1,4 +1,5 @@
 import HeroSection from '../components/HeroSection';
+import SEO from '../components/SEO';
 import BrandPhilosophy from '../components/BrandPhilosophy';
 import Craftsmanship from '../components/Craftsmanship';
 import CustomExperience from '../components/CustomExperience';

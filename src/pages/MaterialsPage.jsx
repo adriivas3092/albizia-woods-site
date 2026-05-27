@@ -1,4 +1,5 @@
 import MaterialsHero from '../components/materials/MaterialsHero';
+import SEO from '../components/SEO';
 import MaterialsStory from '../components/materials/MaterialsStory';
 import MaterialsGallery from '../components/materials/MaterialsGallery';
 import MaterialsCraftsmanship from '../components/materials/MaterialsCraftsmanship';

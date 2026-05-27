@@ -1,4 +1,5 @@
 import CollectionsHero from '../components/collections/CollectionsHero';
+import SEO from '../components/SEO';
 import CategoryShowcase from '../components/collections/CategoryShowcase';
 import MaterialDetail from '../components/collections/MaterialDetail';
 import LifestyleEditorial from '../components/collections/LifestyleEditorial';

@@ -1,4 +1,5 @@
 import BespokeHero from '../components/bespoke/BespokeHero';
+import SEO from '../components/SEO';
 import BespokePhilosophy from '../components/bespoke/BespokePhilosophy';
 import BespokeProcess from '../components/bespoke/BespokeProcess';
 import BespokeMaterials from '../components/bespoke/BespokeMaterials';

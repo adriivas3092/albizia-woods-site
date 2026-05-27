@@ -1,4 +1,5 @@
 import AboutHero from '../components/about/AboutHero';
+import SEO from '../components/SEO';
 import OriginStory from '../components/about/OriginStory';
 import NameMeaning from '../components/about/NameMeaning';
 import AboutPhilosophy from '../components/about/AboutPhilosophy';

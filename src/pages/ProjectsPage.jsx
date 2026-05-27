@@ -1,4 +1,5 @@
 import ProjectsHero from '../components/projects/ProjectsHero';
+import SEO from '../components/SEO';
 import ProjectsEditorial from '../components/projects/ProjectsEditorial';
 import ProjectsContext from '../components/projects/ProjectsContext';
 import ProjectsDetails from '../components/projects/ProjectsDetails';

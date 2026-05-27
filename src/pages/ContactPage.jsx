@@ -1,4 +1,5 @@
 import ContactHero from '../components/contact/ContactHero';
+import SEO from '../components/SEO';
 import ContactPhilosophy from '../components/contact/ContactPhilosophy';
 import ContactForm from '../components/contact/ContactForm';
 import ContactStudio from '../components/contact/ContactStudio';
