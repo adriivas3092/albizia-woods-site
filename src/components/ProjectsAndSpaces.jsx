@@ -44,7 +44,7 @@ export default function ProjectsAndSpaces() {
           {PROJECTS.map((project, index) => (
             <ScrollReveal key={index} className={styles.projectCard}>
               <div className={styles.imageWrapper}>
-                <img src={project.image} alt={project.title} loading="lazy" className="hover-zoom" / decoding="async">
+                <img src={project.image} alt={project.title} loading="lazy" className="hover-zoom" decoding="async">
               </div>
               <div className={styles.meta}>
                 <h3>{project.title}</h3>

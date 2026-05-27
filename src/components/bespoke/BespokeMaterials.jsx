@@ -5,8 +5,8 @@ export default function BespokeMaterials() {
     <section className={styles.materials}>
       <div className={`container ${styles.grid}`}>
         <div className={styles.imageCol}>
-          <img src="/material_metal.png" alt="Brushed metal texture" className={styles.image} loading="lazy" / decoding="async">
-          <img src="/material_piedra.png" alt="Travertine stone texture" className={`${styles.image} ${styles.offsetImage}`} loading="lazy" / decoding="async">
+          <img src="/material_metal.png" alt="Brushed metal texture" className={styles.image} loading="lazy" decoding="async">
+          <img src="/material_piedra.png" alt="Travertine stone texture" className={`${styles.image} ${styles.offsetImage}`} loading="lazy" decoding="async">
         </div>
         
         <div className={styles.textCol}>

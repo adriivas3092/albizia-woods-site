@@ -12,14 +12,14 @@ export default function BespokeInspiration() {
         
         <div className={styles.grid}>
           <div className={styles.mainImage}>
-            <img src="/bespoke_inspiration.png" alt="Luxurious moody architectural space" loading="lazy" / decoding="async">
+            <img src="/bespoke_inspiration.png" alt="Luxurious moody architectural space" loading="lazy" decoding="async">
           </div>
           <div className={styles.sideImages}>
             <div className={styles.smallImage}>
-              <img src="/Proyectos/Lat90_BAJA079.jpg" alt="Interior detail" loading="lazy" / decoding="async">
+              <img src="/Proyectos/Lat90_BAJA079.jpg" alt="Interior detail" loading="lazy" decoding="async">
             </div>
             <div className={styles.smallImageAlt}>
-              <img src="/Proyectos/Lat90_BAJA088.jpg" alt="Design detail" loading="lazy" / decoding="async">
+              <img src="/Proyectos/Lat90_BAJA088.jpg" alt="Design detail" loading="lazy" decoding="async">
             </div>
           </div>
         </div>

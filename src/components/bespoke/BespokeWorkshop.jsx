@@ -24,10 +24,10 @@ export default function BespokeWorkshop() {
         
         <div className={styles.imageCol}>
           <div className={styles.imageWrapperMain}>
-            <img src="/photo3.jpg" alt="Master artisan at work" loading="lazy" / decoding="async">
+            <img src="/photo3.jpg" alt="Master artisan at work" loading="lazy" decoding="async">
           </div>
           <div className={styles.imageWrapperSub}>
-            <img src="/workshop_process_1779816120385.png" alt="Woodworking details" loading="lazy" / decoding="async">
+            <img src="/workshop_process_1779816120385.png" alt="Woodworking details" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
