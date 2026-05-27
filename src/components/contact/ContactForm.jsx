@@ -4,20 +4,43 @@ import ScrollReveal from '../ScrollReveal';
 
 export default function ContactForm() {
   const [status, setStatus] = useState('idle'); // 'idle' | 'loading' | 'success' | 'error'
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    type: '',
+    message: ''
+  });
 
-  const handleSubmit = (e) => {
+  const handleChange = (e) => {
+    const { id, value } = e.target;
+    setFormData(prev => ({ ...prev, [id]: value }));
+  };
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('loading');
     
-    // Simulate network request
-    setTimeout(() => {
-      // 90% chance of success for demo purposes
-      if (Math.random() > 0.1) {
+    try {
+      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (response.ok) {
         setStatus('success');
+        setFormData({ name: '', email: '', phone: '', type: '', message: '' }); // Clear form
       } else {
         setStatus('error');
       }
-    }, 2000);
+    } catch (error) {
+      console.error('Submission error:', error);
+      setStatus('error');
+    }
   };
 
   return (
@@ -56,25 +79,25 @@ export default function ContactForm() {
           <form className={styles.form} onSubmit={handleSubmit}>
             <div className={styles.inputGroup}>
               <label htmlFor="name">Full Name *</label>
-              <input type="text" id="name" className={styles.minimalInput} placeholder="Your name" required disabled={status === 'loading'} />
+              <input type="text" id="name" value={formData.name} onChange={handleChange} className={styles.minimalInput} placeholder="Your name" required disabled={status === 'loading'} />
               <div className={styles.inputFocusLine}></div>
             </div>
 
             <div className={styles.inputGroup}>
               <label htmlFor="email">Email Address *</label>
-              <input type="email" id="email" className={styles.minimalInput} placeholder="your@email.com" required disabled={status === 'loading'} />
+              <input type="email" id="email" value={formData.email} onChange={handleChange} className={styles.minimalInput} placeholder="your@email.com" required disabled={status === 'loading'} />
               <div className={styles.inputFocusLine}></div>
             </div>
 
             <div className={styles.inputGroup}>
               <label htmlFor="phone">Phone Number</label>
-              <input type="tel" id="phone" className={styles.minimalInput} placeholder="+1 (555) 000-0000" disabled={status === 'loading'} />
+              <input type="tel" id="phone" value={formData.phone} onChange={handleChange} className={styles.minimalInput} placeholder="+1 (555) 000-0000" disabled={status === 'loading'} />
               <div className={styles.inputFocusLine}></div>
             </div>
 
             <div className={styles.inputGroup}>
               <label htmlFor="type">Project Type *</label>
-              <select id="type" className={`${styles.minimalInput} ${styles.minimalSelect}`} required defaultValue="" disabled={status === 'loading'}>
+              <select id="type" value={formData.type} onChange={handleChange} className={`${styles.minimalInput} ${styles.minimalSelect}`} required disabled={status === 'loading'}>
                 <option value="" disabled>Select project type</option>
                 <option value="residential">Residential / Private</option>
                 <option value="commercial">Commercial / Hospitality</option>
@@ -86,7 +109,7 @@ export default function ContactForm() {
 
             <div className={styles.inputGroup}>
               <label htmlFor="message">Message *</label>
-              <textarea id="message" className={styles.minimalInput} placeholder="Tell us about your project, materials, or timeline..." required disabled={status === 'loading'}></textarea>
+              <textarea id="message" value={formData.message} onChange={handleChange} className={styles.minimalInput} placeholder="Tell us about your project, materials, or timeline..." required disabled={status === 'loading'}></textarea>
               <div className={styles.inputFocusLine}></div>
             </div>
 
