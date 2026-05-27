@@ -64,6 +64,13 @@ export default function HeroSection() {
           />
         ))}
       </div>
+
+      <div className={styles.scrollIndicator} onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}>
+        <span className={styles.scrollText}>Scroll</span>
+        <svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={styles.scrollIcon}>
+          <path d="M6 0V23M6 23L1 18M6 23L11 18" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
+        </svg>
+      </div>
     </section>
   );
 }
