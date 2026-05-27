@@ -9,6 +9,7 @@ import ContactPage from './pages/ContactPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
 import CookieBanner from './components/CookieBanner';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path="/terms-of-service" element={<TermsPage />} />
     </Routes>
     <CookieBanner />
+    <FloatingWhatsApp />
     </>
   );
 }
