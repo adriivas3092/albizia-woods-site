@@ -11,7 +11,7 @@ export default function AboutHero() {
           src="/photo3.jpg" 
           alt="Master woodworker in a luxury studio" 
           className={styles.image}
-        />
+        fetchpriority="high" />
         <div className={styles.overlay}></div>
       </div>
       

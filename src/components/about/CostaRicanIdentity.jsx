@@ -8,7 +8,7 @@ export default function CostaRicanIdentity() {
             src="/artboard1.png" 
             alt="Costa Rican tropical modernism architecture" 
             className={styles.image}
-          />
+          loading="lazy" decoding="async" />
       </div>
       <div className={`container ${styles.content}`}>
         <div className={styles.textContent}>

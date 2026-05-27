@@ -5,7 +5,7 @@ export default function MaterialsStory() {
     <section className={styles.story}>
       <div className={`container ${styles.grid}`}>
         <div className={styles.imageCol}>
-          <img src="/Proyectos/Lat90_BAJA070.jpg" alt="Macro detail of natural wood grain" loading="lazy" />
+          <img src="/Proyectos/Lat90_BAJA070.jpg" alt="Macro detail of natural wood grain" loading="lazy" / decoding="async">
         </div>
         
         <div className={styles.textCol}>

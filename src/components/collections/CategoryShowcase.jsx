@@ -35,7 +35,7 @@ export default function CategoryShowcase() {
           <div key={idx} className={`${styles.row} ${cat.align === 'right' ? styles.rowReverse : ''}`}>
             <div className={styles.imageBlock}>
               <div className={styles.imageWrapper}>
-                <img src={cat.image} alt={cat.title} loading="lazy" />
+                <img src={cat.image} alt={cat.title} loading="lazy" / decoding="async">
               </div>
             </div>
             <div className={styles.textBlock}>

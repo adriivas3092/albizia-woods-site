@@ -1,4 +1,15 @@
 /* Custom Fonts: NT Wagner & Acumin Regular should be loaded here or via your HTML */
+@font-face {
+  font-family: 'NT Wagner';
+  src: local('NT Wagner');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Acumin Regular';
+  src: local('Acumin Regular');
+  font-display: swap;
+}
 
 :root {
   /* Colors */

@@ -15,8 +15,8 @@ export default function ScrollReveal({ children, delay = 0, className = '' }) {
         });
       },
       {
-        threshold: 0.1, // Trigger when 10% is visible
-        rootMargin: '0px 0px -50px 0px' // Slightly before it reaches the bottom
+        threshold: 0, // Trigger as soon as the rootMargin intersection happens
+        rootMargin: '50px 0px 50px 0px' // Load 50px before entering viewport
       }
     );
     

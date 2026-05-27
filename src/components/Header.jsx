@@ -22,7 +22,7 @@ export default function Header() {
       <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
         <div className={styles.logo}>
         <Link to="/">
-          <img src="/logo.png" alt="Albizia Woods" className={styles.logoImg} />
+          <img src="/logo.png" alt="Albizia Woods" className={styles.logoImg} loading="lazy" decoding="async" />
         </Link>
       </div>
       <nav className={styles.nav}>

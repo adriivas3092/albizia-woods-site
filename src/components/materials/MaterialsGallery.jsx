@@ -20,7 +20,7 @@ export default function MaterialsGallery() {
           {MATERIALS.map((material, idx) => (
             <div key={idx} className={styles.card}>
               <div className={styles.imageBox}>
-                <img src={material.image} alt={material.name} loading="lazy" />
+                <img src={material.image} alt={material.name} loading="lazy" / decoding="async">
                 <div className={styles.overlay}>
                   <p>{material.desc}</p>
                 </div>

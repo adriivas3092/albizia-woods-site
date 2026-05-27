@@ -17,7 +17,7 @@ export default function NameMeaning() {
             src="/albizia_tree_1779816107533.png" 
             alt="Albizia Niopoides Tree" 
             className={styles.image}
-          />
+          loading="lazy" decoding="async" />
         </div>
       </div>
     </section>

@@ -34,7 +34,7 @@ export default function HeroSection() {
             src={img}
             alt={`Hero ${index + 1}`}
             className={`${styles.image} ${index === currentImageIndex ? styles.active : ''}`}
-          />
+          fetchpriority="high" />
         ))}
         <div className={styles.overlay}></div>
       </div>

@@ -9,7 +9,7 @@ export default function ContactHero() {
           src="/Proyectos/Lat90_BAJA093.jpg" 
           alt="Warm architectural living space" 
           className={styles.image}
-        />
+        fetchpriority="high" />
         <div className={styles.overlay}></div>
       </div>
 

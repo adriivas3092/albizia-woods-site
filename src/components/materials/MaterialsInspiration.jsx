@@ -5,7 +5,7 @@ export default function MaterialsInspiration() {
     <section className={styles.inspiration}>
       <div className={`container ${styles.grid}`}>
         <div className={styles.imageCol}>
-          <img src="/projects_hero.png" alt="Materials in architectural context" loading="lazy" />
+          <img src="/projects_hero.png" alt="Materials in architectural context" loading="lazy" / decoding="async">
         </div>
         <div className={styles.textCol}>
           <div className={styles.card}>

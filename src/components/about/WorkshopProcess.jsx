@@ -16,7 +16,7 @@ export default function WorkshopProcess() {
             src="/workshop_process_1779816120385.png" 
             alt="Woodworking chisel macro shot" 
             className={styles.image}
-          />
+          loading="lazy" decoding="async" />
         </div>
       </div>
     </section>

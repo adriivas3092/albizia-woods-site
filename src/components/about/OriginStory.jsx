@@ -9,7 +9,7 @@ export default function OriginStory() {
             src="/photo5.jpg" 
             alt="Vintage woodworking tools" 
             className={styles.image}
-          />
+          loading="lazy" decoding="async" />
         </div>
         <div className={styles.textContent}>
           <span className={styles.label}>The Origin</span>

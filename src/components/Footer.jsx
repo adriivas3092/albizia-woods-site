@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={`container ${styles.layout}`}>
         <div className={styles.brand}>
-          <img src="/logo.png" alt="Albizia Woods" className={styles.logo} loading="lazy" />
+          <img src="/logo.png" alt="Albizia Woods" className={styles.logo} loading="lazy" / decoding="async">
           <p>Rooted in Nature.<br/>Crafted for Timelessness.</p>
         </div>
         

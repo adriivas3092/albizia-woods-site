@@ -9,7 +9,7 @@ export default function BespokeHero() {
           src="/Proyectos/Lat90_BAJA088.jpg" 
           alt="Custom architectural woodwork" 
           className={styles.image}
-        />
+        fetchpriority="high" />
         <div className={styles.overlay}></div>
       </div>
 

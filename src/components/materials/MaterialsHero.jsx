@@ -9,7 +9,7 @@ export default function MaterialsHero() {
           src="/photo3.jpg" 
           alt="Close up of natural wood texture and grain" 
           className={styles.image}
-        />
+        fetchpriority="high" />
         <div className={styles.overlay}></div>
       </div>
 

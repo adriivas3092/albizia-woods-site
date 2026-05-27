@@ -11,7 +11,7 @@ export default function CollectionsHero() {
           src="/photo4.jpg" 
           alt="Premium architectural spaces by Albizia Woods" 
           className={styles.image}
-        />
+        fetchpriority="high" />
         <div className={styles.overlay}></div>
       </div>
       

@@ -23,10 +23,10 @@ export default function MaterialsCraftsmanship() {
         
         <div className={styles.imageCol}>
           <div className={styles.mainImage}>
-            <img src="/photo3.jpg" alt="Artisan hand-finishing wood" loading="lazy" />
+            <img src="/photo3.jpg" alt="Artisan hand-finishing wood" loading="lazy" / decoding="async">
           </div>
           <div className={styles.detailImage}>
-            <img src="/Proyectos/Lat90_BAJA080.jpg" alt="Joinery and finish detail" loading="lazy" />
+            <img src="/Proyectos/Lat90_BAJA080.jpg" alt="Joinery and finish detail" loading="lazy" / decoding="async">
           </div>
         </div>
       </div>

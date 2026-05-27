@@ -13,10 +13,10 @@ export default function ProjectsDetails() {
         
         <div className={styles.imageGrid}>
           <div className={styles.imageBox}>
-            <img src="/Proyectos/Lat90_BAJA070.jpg" alt="Wood grain detail" loading="lazy" />
+            <img src="/Proyectos/Lat90_BAJA070.jpg" alt="Wood grain detail" loading="lazy" / decoding="async">
           </div>
           <div className={styles.imageBox}>
-            <img src="/Proyectos/Lat90_BAJA080.jpg" alt="Craftsmanship detail" loading="lazy" />
+            <img src="/Proyectos/Lat90_BAJA080.jpg" alt="Craftsmanship detail" loading="lazy" / decoding="async">
           </div>
         </div>
       </div>

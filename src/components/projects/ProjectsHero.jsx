@@ -9,7 +9,7 @@ export default function ProjectsHero() {
           src="/Proyectos/Lat90_BAJA080.jpg" 
           alt="Architectural space" 
           className={styles.image}
-        />
+        fetchpriority="high" />
         <div className={styles.overlay}></div>
       </div>
 
