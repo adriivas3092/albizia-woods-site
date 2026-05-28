@@ -57,7 +57,7 @@ export default function ContactForm() {
           <div className={styles.contactMethods}>
             <div className={styles.method}>
               <span className={styles.methodLabel}>Direct Inquiry</span>
-              <a href="mailto:studio@albiziawoods.com" className={styles.methodLink}>studio@albiziawoods.com</a>
+              <a href="mailto:info@albiziawoods.com" className={styles.methodLink}>info@albiziawoods.com</a>
             </div>
             
             <div className={styles.method}>

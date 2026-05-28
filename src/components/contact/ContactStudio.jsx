@@ -24,7 +24,7 @@ export default function ContactStudio() {
             </div>
             <div className={styles.detailItem}>
               <h4>Direct Contact</h4>
-              <p><a href="mailto:contact@albiziawoods.com">contact@albiziawoods.com</a></p>
+              <p><a href="mailto:info@albiziawoods.com">info@albiziawoods.com</a></p>
               <p><a href="tel:+50600000000">+506 0000 0000</a></p>
             </div>
             <div className={styles.detailItem}>
