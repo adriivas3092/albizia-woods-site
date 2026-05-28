@@ -1,4 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap');
+/* Custom Fonts: NT Wagner & Acumin Regular should be loaded here or via your HTML */
+@font-face {
+  font-family: 'NT Wagner';
+  src: local('NT Wagner');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Acumin Regular';
+  src: local('Acumin Regular');
+  font-display: swap;
+}
 
 :root {
   /* Colors */
@@ -14,8 +25,8 @@
   --accent-blue-light: #98c8de;
 
   /* Typography */
-  --font-serif: 'Cormorant Garamond', serif;
-  --font-sans: 'Montserrat', sans-serif;
+  --font-serif: 'NT Wagner', serif;
+  --font-sans: 'Acumin Regular', 'Acumin Pro', sans-serif;
 
   /* Spacing */
   --space-sm: 1.5rem;
