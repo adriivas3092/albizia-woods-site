@@ -63,7 +63,7 @@
 }
 
 .logoImg {
-  height: 56px;
+  height: 61px;
   filter: brightness(0) invert(1);
 }
 
@@ -247,7 +247,7 @@
     padding: var(--space-md);
   }
   .logoImg {
-    height: 44px;
+    height: 49px;
   }
   .nav {
     display: none;
