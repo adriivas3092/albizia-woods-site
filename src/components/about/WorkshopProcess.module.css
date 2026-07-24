@@ -34,7 +34,7 @@
 
 .textCol h2 {
   font-size: clamp(2rem, 3vw, 3.5rem);
-  color: var(--text-primary);
+  color: var(--bg-dark);
   margin-bottom: var(--space-lg);
   max-width: 90%;
 }

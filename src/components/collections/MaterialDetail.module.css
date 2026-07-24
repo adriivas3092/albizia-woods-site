@@ -30,6 +30,7 @@
   margin-bottom: var(--space-lg);
   font-family: var(--font-serif);
   font-style: italic;
+  color: var(--text-light);
 }
 
 .textContent p {

@@ -22,7 +22,7 @@ export default function CollectionsHero() {
           The Art of Living.
         </h1>
         <p className={`animate-fade-in ${styles.subtitle}`}>
-          Sculptural objects and architectural furnishings crafted from natural materials.
+          Madera con historia, diseño con futuro.
         </p>
       </div>
     </section>

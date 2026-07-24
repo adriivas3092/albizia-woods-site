@@ -21,7 +21,7 @@ export default function ContactHero() {
           Envision Your<br/>Space.
         </h1>
         <p className={`animate-fade-in ${styles.subtitle}`}>
-          We invite you to begin a collaborative journey to create furniture that resonates with your architecture and lifestyle.
+          Madera con historia, diseño con futuro.
         </p>
       </div>
     </section>

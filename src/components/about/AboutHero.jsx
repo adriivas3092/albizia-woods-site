@@ -23,7 +23,7 @@ export default function AboutHero() {
           Belonging.
         </h1>
         <p className={`animate-fade-in ${styles.subtitle}`}>
-          Rooted in family, designed for generations.
+          Madera con historia, diseño con futuro.
         </p>
       </div>
     </section>

@@ -21,7 +21,7 @@ export default function BespokeHero() {
           The Luxury of<br/>Personalized Craft.
         </h1>
         <p className={`animate-fade-in ${styles.subtitle}`}>
-          A collaborative journey to create architectural furniture that is undeniably yours.
+          Madera con historia, diseño con futuro.
         </p>
       </div>
     </section>

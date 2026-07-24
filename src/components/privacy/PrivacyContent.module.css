@@ -84,7 +84,7 @@
   font-family: var(--font-serif);
   font-size: 2rem;
   margin-bottom: var(--space-sm);
-  color: var(--text-primary);
+  color: var(--bg-dark);
 }
 
 .section p, .section ul {

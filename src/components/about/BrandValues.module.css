@@ -16,7 +16,7 @@
 
 .header h2 {
   font-size: clamp(2rem, 3vw, 3rem);
-  color: var(--text-primary);
+  color: var(--bg-dark);
 }
 
 .grid {

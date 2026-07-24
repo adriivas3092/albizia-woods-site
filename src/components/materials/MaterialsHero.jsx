@@ -21,7 +21,7 @@ export default function MaterialsHero() {
           The Origin of<br/>Timelessness.
         </h1>
         <p className={`animate-fade-in ${styles.subtitle}`}>
-          Discover the raw, unyielding beauty of tropical hardwoods and the hands that shape them.
+          Madera con historia, diseño con futuro.
         </p>
       </div>
     </section>

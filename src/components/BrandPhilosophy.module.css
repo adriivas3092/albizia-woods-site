@@ -46,7 +46,7 @@
 .textContent h2 {
   font-family: var(--font-serif);
   font-size: clamp(2.5rem, 4vw, 3.5rem);
-  color: var(--text-primary);
+  color: var(--bg-dark);
   margin-bottom: var(--space-md);
   font-style: italic;
   line-height: 1.2;

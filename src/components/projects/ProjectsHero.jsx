@@ -21,7 +21,7 @@ export default function ProjectsHero() {
           Architecture.<br/>Materialized.
         </h1>
         <p className={`animate-fade-in ${styles.subtitle}`}>
-          Exploring the interplay between bespoke furniture and curated interior environments.
+          Madera con historia, diseño con futuro.
         </p>
       </div>
     </section>

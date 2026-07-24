@@ -47,7 +47,7 @@ export default function HeroSection() {
           <span>Crafted for Timelessness.</span>
         </h1>
         <p className={styles.subtitle}>
-          A Costa Rican woodworking studio dedicated to architectural furniture and natural elegance.
+          Madera con historia, diseño con futuro.
         </p>
         <Link to="/projects" className={styles.cta}>
           Explore the Portfolio

@@ -60,7 +60,7 @@
 .textBlock h2 {
   font-family: var(--font-serif);
   font-size: clamp(2.5rem, 4vw, 4rem);
-  color: var(--text-primary);
+  color: var(--bg-dark);
   margin-bottom: var(--space-md);
   font-style: italic;
 }
