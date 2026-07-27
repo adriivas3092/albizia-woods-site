@@ -15,8 +15,8 @@ export default function TeamHero() {
     <section className={styles.hero}>
       <div className={styles.background}>
         <img
-          src="/workshop_process_1779816120385.webp"
-          alt="Albizia Woods craftsmanship"
+          src="/team/equipo-hero.jpg"
+          alt="Albizia Woods full team"
           className={styles.image}
         fetchPriority="high" />
         <div className={styles.overlay}></div>

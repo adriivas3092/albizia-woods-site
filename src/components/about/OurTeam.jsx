@@ -5,7 +5,7 @@ import { useLang } from '../../i18n/LanguageContext';
 
 const DEPARTMENTS = [
   {
-    image: '/team/diseno-arquitectura.webp',
+    image: '/team/diseno-arquitectura.jpg',
     en: {
       name: 'Design & Architecture Team',
       text: 'Advisors in furniture design and responsible for supervising the fabrication and finishing processes of our projects.',
@@ -16,7 +16,7 @@ const DEPARTMENTS = [
     },
   },
   {
-    image: '/team/administrativo.webp',
+    image: '/team/administrativo.jpg',
     en: {
       name: 'Administrative Team',
       text: 'The team in charge of the operational coordination of our processes, from design through to the delivery of our products.',
@@ -27,7 +27,7 @@ const DEPARTMENTS = [
     },
   },
   {
-    image: '/team/ebanisteria.webp',
+    image: '/team/ebanisteria.jpg',
     en: {
       name: 'Cabinetmaking Team',
       text: 'Our talented cabinetmakers are responsible for building the furniture; their skill and attention to detail ensure every piece is crafted with precision.',
@@ -38,7 +38,7 @@ const DEPARTMENTS = [
     },
   },
   {
-    image: '/team/acabado.webp',
+    image: '/team/acabado.jpg',
     en: {
       name: 'Finishing Team',
       text: 'Our sanders and lacquerers handle the final phase of furniture production, responsible for giving our products their flawless finishing touch.',
@@ -51,7 +51,7 @@ const DEPARTMENTS = [
 ];
 
 const CLOSING = {
-  image: '/team/equipo-completo.webp',
+  image: '/team/equipo-completo.jpg',
   en: "Together, our team works with passion and dedication to deliver unique, high-quality furniture tailored to our clients' needs.",
   es: 'En conjunto, nuestro equipo trabaja con pasión y dedicación para ofrecer mobiliario único y de alta calidad que se adapte a las necesidades de nuestros clientes.',
 };
