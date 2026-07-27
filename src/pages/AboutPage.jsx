@@ -7,6 +7,7 @@ import BrandValues from '../components/about/BrandValues';
 import WorkshopProcess from '../components/about/WorkshopProcess';
 import MissionVision from '../components/about/MissionVision';
 import CostaRicanIdentity from '../components/about/CostaRicanIdentity';
+import OurTeam from '../components/about/OurTeam';
 import AboutCTA from '../components/about/AboutCTA';
 import Footer from '../components/Footer';
 import { useEffect } from 'react';
@@ -28,6 +29,7 @@ export default function AboutPage() {
       <WorkshopProcess />
       <MissionVision />
       <CostaRicanIdentity />
+      <OurTeam />
       <AboutCTA />
       <Footer />
     </>
