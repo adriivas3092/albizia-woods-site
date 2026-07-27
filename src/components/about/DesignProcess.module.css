@@ -1,7 +1,25 @@
 .processSection {
+  position: relative;
+  overflow: hidden;
   padding: var(--section-pad) 0;
   background-color: var(--bg-secondary);
   color: var(--text-primary);
+}
+
+.textureBg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.inner {
+  position: relative;
+  z-index: 2;
 }
 
 .header {

@@ -20,7 +20,7 @@ export default function Craftsmanship() {
 
   return (
     <section className={styles.craft}>
-      <div className={styles.textureBg} style={{ backgroundImage: 'url(/texture.webp)' }}></div>
+      <div className={styles.textureBg} style={{ backgroundImage: 'url(/fondo.png)' }}></div>
       <div className={`container ${styles.inner}`}>
         <div className={styles.textCol}>
           <span className={styles.label}>{c.label}</span>

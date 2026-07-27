@@ -41,7 +41,8 @@ export default function DesignProcess() {
 
   return (
     <section className={styles.processSection}>
-      <div className="container">
+      <div className={styles.textureBg} style={{ backgroundImage: 'url(/fondo.png)' }}></div>
+      <div className={`container ${styles.inner}`}>
         <div className={styles.header}>
           <span className={styles.label}>{c.label}</span>
           <h2>{c.title}</h2>
