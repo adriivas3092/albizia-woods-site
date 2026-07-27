@@ -1,10 +1,14 @@
 import styles from './FloatingWhatsApp.module.css';
+import { useLang } from '../i18n/LanguageContext';
 
 export default function FloatingWhatsApp() {
+  const { lang } = useLang();
   const phoneNumber = '50672131441';
-  const message = 'Hello Albizia Woods, I would like to learn more about your furniture and projects.';
+  const message = lang === 'es'
+    ? 'Hola Albizia Woods, me gustaría conocer más sobre su mobiliario y proyectos.'
+    : 'Hello Albizia Woods, I would like to learn more about your furniture and projects.';
   const encodedMessage = encodeURIComponent(message);
-  
+
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
 
   return (
@@ -13,7 +17,7 @@ export default function FloatingWhatsApp() {
       target="_blank" 
       rel="noopener noreferrer" 
       className={styles.floatingBtn}
-      aria-label="Contact us on WhatsApp"
+      aria-label={lang === 'es' ? 'Contáctanos por WhatsApp' : 'Contact us on WhatsApp'}
     >
       {/* Premium Minimalist WhatsApp Vector */}
       <svg className={styles.icon} viewBox="0 0 24 24" fill="currentColor">

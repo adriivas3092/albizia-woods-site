@@ -2,6 +2,20 @@ import { useState, useEffect } from 'react';
 import styles from './HeroSection.module.css';
 import { Link } from 'react-router-dom';
 import Header from './Header';
+import { useLang } from '../i18n/LanguageContext';
+
+const COPY = {
+  en: {
+    title: ['Rooted in Nature.', 'Crafted for Timelessness.'],
+    subtitle: 'Madera con historia, diseño con futuro.',
+    cta: 'Explore the Portfolio', scroll: 'Scroll',
+  },
+  es: {
+    title: ['Enraizados en la naturaleza.', 'Creados para perdurar.'],
+    subtitle: 'Madera con historia, diseño con futuro.',
+    cta: 'Explorar el Portafolio', scroll: 'Bajar',
+  },
+};
 
 const CAROUSEL_IMAGES = [
   '/Proyectos/Lat90_BAJA070.webp',
@@ -16,6 +30,8 @@ const CAROUSEL_IMAGES = [
 ];
 
 export default function HeroSection() {
+  const { lang } = useLang();
+  const c = COPY[lang];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -34,7 +50,7 @@ export default function HeroSection() {
             src={img}
             alt={`Hero ${index + 1}`}
             className={`${styles.image} ${index === currentImageIndex ? styles.active : ''}`}
-          fetchpriority="high" />
+          fetchPriority="high" />
         ))}
         <div className={styles.overlay}></div>
       </div>
@@ -43,14 +59,14 @@ export default function HeroSection() {
 
       <div className={styles.content}>
         <h1 className={styles.title}>
-          <span>Rooted in Nature.</span>
-          <span>Crafted for Timelessness.</span>
+          <span>{c.title[0]}</span>
+          <span>{c.title[1]}</span>
         </h1>
         <p className={styles.subtitle}>
-          Madera con historia, diseño con futuro.
+          {c.subtitle}
         </p>
         <Link to="/projects" className={styles.cta}>
-          Explore the Portfolio
+          {c.cta}
         </Link>
       </div>
 
@@ -66,7 +82,7 @@ export default function HeroSection() {
       </div>
 
       <div className={styles.scrollIndicator} onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}>
-        <span className={styles.scrollText}>Scroll</span>
+        <span className={styles.scrollText}>{c.scroll}</span>
         <svg width="12" height="24" viewBox="0 0 12 24" fill="none" xmlns="http://www.w3.org/2000/svg" className={styles.scrollIcon}>
           <path d="M6 0V23M6 23L1 18M6 23L11 18" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>

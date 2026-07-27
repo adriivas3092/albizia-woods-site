@@ -5,6 +5,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import CollectionsPage from './pages/CollectionsPage';
 import BespokePage from './pages/BespokePage';
 import MaterialsPage from './pages/MaterialsPage';
+import TeamPage from './pages/TeamPage';
 import ContactPage from './pages/ContactPage';
 import PrivacyPage from './pages/PrivacyPage';
 import TermsPage from './pages/TermsPage';
@@ -21,6 +22,7 @@ function App() {
       <Route path="/collections" element={<CollectionsPage />} />
       <Route path="/bespoke" element={<BespokePage />} />
       <Route path="/materials" element={<MaterialsPage />} />
+      <Route path="/team" element={<TeamPage />} />
       <Route path="/contact" element={<ContactPage />} />
       <Route path="/privacy-policy" element={<PrivacyPage />} />
       <Route path="/terms-of-service" element={<TermsPage />} />

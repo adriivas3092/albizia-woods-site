@@ -1,46 +1,85 @@
 import styles from './BespokeConsultation.module.css';
+import { useLang } from '../../i18n/LanguageContext';
+
+const COPY = {
+  en: {
+    title: 'Initiate a Dialogue.',
+    text: 'Commissioning a bespoke piece from Albizia Woods is a highly personal experience. We invite you to share your vision, architectural plans, or initial concepts. Our design atelier will respond to schedule a private consultation.',
+    name: 'Name', namePlaceholder: 'How shall we address you?',
+    email: 'Email', emailPlaceholder: 'Your direct contact',
+    scope: 'Project Scope', scopePlaceholder: 'Select an area of focus...',
+    options: {
+      dining: 'Architectural Dining Table',
+      living: 'Living & Lounge Furnishings',
+      storage: 'Custom Cabinetry & Storage',
+      full: 'Comprehensive Space Curation',
+      other: 'Other Unique Commission',
+    },
+    vision: 'Vision & Dimensions',
+    visionPlaceholder: 'Briefly describe the space, intended materials, and approximate dimensions...',
+    submit: 'Request Consultation',
+  },
+  es: {
+    title: 'Inicie un Diálogo.',
+    text: 'Encargar una pieza a medida a Albizia Woods es una experiencia profundamente personal. Le invitamos a compartir su visión, planos arquitectónicos o conceptos iniciales. Nuestro taller de diseño le responderá para agendar una consulta privada.',
+    name: 'Nombre', namePlaceholder: '¿Cómo debemos dirigirnos a usted?',
+    email: 'Correo', emailPlaceholder: 'Su contacto directo',
+    scope: 'Alcance del Proyecto', scopePlaceholder: 'Seleccione un área de enfoque...',
+    options: {
+      dining: 'Mesa de Comedor Arquitectónica',
+      living: 'Mobiliario de Sala y Estar',
+      storage: 'Ebanistería y Almacenamiento a Medida',
+      full: 'Curaduría Integral del Espacio',
+      other: 'Otro Encargo Único',
+    },
+    vision: 'Visión y Dimensiones',
+    visionPlaceholder: 'Describa brevemente el espacio, los materiales deseados y las dimensiones aproximadas...',
+    submit: 'Solicitar Consulta',
+  },
+};
 
 export default function BespokeConsultation() {
+  const { lang } = useLang();
+  const c = COPY[lang];
+
   return (
     <section className={styles.consultation}>
       <div className={`container ${styles.grid}`}>
         <div className={styles.intro}>
-          <h2>Initiate a Dialogue.</h2>
-          <p>
-            Commissioning a bespoke piece from Albizia Woods is a highly personal experience. We invite you to share your vision, architectural plans, or initial concepts. Our design atelier will respond to schedule a private consultation.
-          </p>
+          <h2>{c.title}</h2>
+          <p>{c.text}</p>
         </div>
-        
+
         <div className={styles.formContainer}>
           <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
             <div className={styles.formGroup}>
-              <label htmlFor="name">Name</label>
-              <input type="text" id="name" placeholder="How shall we address you?" />
+              <label htmlFor="name">{c.name}</label>
+              <input type="text" id="name" placeholder={c.namePlaceholder} />
             </div>
-            
+
             <div className={styles.formGroup}>
-              <label htmlFor="email">Email</label>
-              <input type="email" id="email" placeholder="Your direct contact" />
+              <label htmlFor="email">{c.email}</label>
+              <input type="email" id="email" placeholder={c.emailPlaceholder} />
             </div>
-            
+
             <div className={styles.formGroup}>
-              <label htmlFor="project">Project Scope</label>
+              <label htmlFor="project">{c.scope}</label>
               <select id="project">
-                <option value="">Select an area of focus...</option>
-                <option value="dining">Architectural Dining Table</option>
-                <option value="living">Living & Lounge Furnishings</option>
-                <option value="storage">Custom Cabinetry & Storage</option>
-                <option value="full">Comprehensive Space Curation</option>
-                <option value="other">Other Unique Commission</option>
+                <option value="">{c.scopePlaceholder}</option>
+                <option value="dining">{c.options.dining}</option>
+                <option value="living">{c.options.living}</option>
+                <option value="storage">{c.options.storage}</option>
+                <option value="full">{c.options.full}</option>
+                <option value="other">{c.options.other}</option>
               </select>
             </div>
-            
+
             <div className={styles.formGroup}>
-              <label htmlFor="details">Vision & Dimensions</label>
-              <textarea id="details" rows="4" placeholder="Briefly describe the space, intended materials, and approximate dimensions..."></textarea>
+              <label htmlFor="details">{c.vision}</label>
+              <textarea id="details" rows="4" placeholder={c.visionPlaceholder}></textarea>
             </div>
-            
-            <button type="submit" className={styles.submitBtn}>Request Consultation</button>
+
+            <button type="submit" className={styles.submitBtn}>{c.submit}</button>
           </form>
         </div>
       </div>
