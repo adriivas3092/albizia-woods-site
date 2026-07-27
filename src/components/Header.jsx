@@ -1,13 +1,10 @@
 import styles from './Header.module.css';
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import MobileMenu from './MobileMenu';
 import { useLang } from '../i18n/LanguageContext';
-import { HEADER_NAV } from '../i18n/nav';
 
 export default function Header() {
-  const location = useLocation();
-  const path = location.pathname;
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const { lang, setLang } = useLang();
@@ -24,48 +21,44 @@ export default function Header() {
     <>
       <header className={`${styles.header} ${scrolled ? styles.scrolled : ''}`}>
         <div className={styles.logo}>
-        <Link to="/">
-          <img src="/logo.webp" alt="Albizia Woods" className={styles.logoImg} loading="lazy" decoding="async" />
-        </Link>
-      </div>
-      <nav className={styles.nav}>
-        {HEADER_NAV.map((item) => (
-          <Link
-            key={item.to}
-            to={item.to}
-            className={path === item.to ? styles.activeLink : ''}
-          >
-            {item[lang]}
+          <Link to="/">
+            <img src="/logo.webp" alt="Albizia Woods" className={styles.logoImg} loading="lazy" decoding="async" />
           </Link>
-        ))}
-        <div className={styles.langSwitch} role="group" aria-label="Language">
+        </div>
+
+        <div className={styles.actions}>
+          <div className={styles.langSwitch} role="group" aria-label="Language">
+            <button
+              type="button"
+              className={`${styles.langBtn} ${lang === 'en' ? styles.langActive : ''}`}
+              onClick={() => setLang('en')}
+              aria-pressed={lang === 'en'}
+            >
+              EN
+            </button>
+            <span className={styles.langSep}>/</span>
+            <button
+              type="button"
+              className={`${styles.langBtn} ${lang === 'es' ? styles.langActive : ''}`}
+              onClick={() => setLang('es')}
+              aria-pressed={lang === 'es'}
+            >
+              ES
+            </button>
+          </div>
+
           <button
-            type="button"
-            className={`${styles.langBtn} ${lang === 'en' ? styles.langActive : ''}`}
-            onClick={() => setLang('en')}
-            aria-pressed={lang === 'en'}
+            className={styles.hamburger}
+            onClick={() => setIsMenuOpen(true)}
+            aria-label={lang === 'es' ? 'Abrir menú' : 'Open menu'}
           >
-            EN
-          </button>
-          <span className={styles.langSep}>/</span>
-          <button
-            type="button"
-            className={`${styles.langBtn} ${lang === 'es' ? styles.langActive : ''}`}
-            onClick={() => setLang('es')}
-            aria-pressed={lang === 'es'}
-          >
-            ES
+            <span></span>
+            <span></span>
           </button>
         </div>
-      </nav>
+      </header>
 
-      <button className={styles.hamburger} onClick={() => setIsMenuOpen(true)} aria-label="Open Menu">
-        <span></span>
-        <span></span>
-      </button>
-    </header>
-
-    <MobileMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
-  </>
+      <MobileMenu isOpen={isMenuOpen} onClose={() => setIsMenuOpen(false)} />
+    </>
   );
 }
