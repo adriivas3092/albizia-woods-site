@@ -22,9 +22,9 @@ const SECTIONS = [
     es: {
       title: 'Uso del Sitio Web',
       blocks: [
-        { p: 'Bienvenido al hogar digital de Albizia Woods. Al acceder y navegar por nuestro sitio, usted acepta interactuar con nuestra presencia digital de una manera respetuosa y acorde con estos Términos de Servicio.' },
+        { p: 'Bienvenido al hogar digital de Albizia Woods. Al acceder y navegar por nuestro sitio, aceptás interactuar con nuestra presencia digital de una manera respetuosa y acorde con estos Términos de Servicio.' },
         { p: 'Nuestra plataforma está diseñada para mostrar nuestro mobiliario a medida, la ebanistería arquitectónica y nuestra filosofía de diseño. Nos reservamos el derecho de modificar, suspender o descontinuar cualquier aspecto del sitio a nuestra discreción, sin previo aviso, a medida que nuestro estudio evoluciona.' },
-        { p: 'Como usuario, usted acepta no interferir con la seguridad, la funcionalidad o el rendimiento del sitio, ni intentar acceder a áreas restringidas de nuestra infraestructura digital.' },
+        { p: 'Como usuario, aceptás no interferir con la seguridad, la funcionalidad o el rendimiento del sitio, ni intentar acceder a áreas restringidas de nuestra infraestructura digital.' },
       ],
     },
   },
@@ -41,7 +41,7 @@ const SECTIONS = [
       title: 'Propiedad Intelectual y Titularidad del Contenido',
       blocks: [
         { p: 'Cada fotografía, boceto de diseño, bloque de texto y concepto arquitectónico presentado en este sitio es propiedad intelectual exclusiva de Albizia Woods o de nuestros socios creativos.' },
-        { p: 'Le invitamos a inspirarse en nuestro portafolio; sin embargo, no puede reproducir, distribuir, modificar ni explotar nuestras imágenes, diseños o contenido escrito con fines comerciales sin nuestro consentimiento explícito y por escrito. El nombre "Albizia Woods", los logotipos y nuestra identidad visual distintiva son marcas registradas protegidas.' },
+        { p: 'Te invitamos a inspirarte en nuestro portafolio; sin embargo, no podés reproducir, distribuir, modificar ni explotar nuestras imágenes, diseños o contenido escrito con fines comerciales sin nuestro consentimiento explícito y por escrito. El nombre "Albizia Woods", los logotipos y nuestra identidad visual distintiva son marcas registradas protegidas.' },
       ],
     },
   },
@@ -57,7 +57,7 @@ const SECTIONS = [
     es: {
       title: 'Solicitudes de Cotización y Contacto',
       blocks: [
-        { p: 'Cuando envía una solicitud de cotización a medida o de asesoría de proyecto a través de nuestros formularios, usted acepta proporcionar información precisa y actualizada en la medida de sus posibilidades.' },
+        { p: 'Cuando enviás una solicitud de cotización a medida o de asesoría de proyecto a través de nuestros formularios, aceptás proporcionar información precisa y actualizada en la medida de tus posibilidades.' },
         { p: 'El envío de una consulta de diseño no constituye un contrato vinculante de servicios o de fabricación. Un acuerdo formal, que detalle plazos, abastecimiento de materiales y costos, se redactará y firmará únicamente después de una consulta mutua. Nos reservamos el derecho de rechazar respetuosamente solicitudes de proyecto que no se alineen con la capacidad o la filosofía de diseño de nuestro estudio.' },
       ],
     },
@@ -107,7 +107,7 @@ const SECTIONS = [
       title: 'Jurisdicción Legal',
       blocks: [
         { p: 'Albizia Woods opera desde San José, Costa Rica. En consecuencia, estos Términos de Servicio, y cualquier disputa que surja del uso de nuestro sitio o servicios, se regirán e interpretarán de acuerdo con las leyes de la República de Costa Rica.' },
-        { p: 'Al usar este sitio, usted consiente la jurisdicción exclusiva de los tribunales costarricenses para cualquier procedimiento legal relacionado con nuestras operaciones digitales o físicas.' },
+        { p: 'Al usar este sitio, consentís la jurisdicción exclusiva de los tribunales costarricenses para cualquier procedimiento legal relacionado con nuestras operaciones digitales o físicas.' },
       ],
     },
   },
@@ -123,7 +123,7 @@ const SECTIONS = [
     es: {
       title: 'Información de Contacto',
       blocks: [
-        { p: 'Si necesita aclaraciones sobre alguno de nuestros términos o desea conversar sobre un encargo a medida, nuestro equipo del estudio siempre está disponible para ayudarle.' },
+        { p: 'Si necesitás aclaraciones sobre alguno de nuestros términos o querés conversar sobre un encargo a medida, nuestro equipo del estudio siempre está disponible para ayudarte.' },
         { address: ['Albizia Woods Studio', 'San José, Costa Rica'], email: 'studio@albiziawoods.com' },
       ],
     },

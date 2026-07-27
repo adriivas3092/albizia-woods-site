@@ -13,7 +13,7 @@ const COPY = {
     title: ['Un Proceso', 'Colaborativo.'],
     paragraphs: [
       'Encargar una pieza a Albizia Woods no es una transacción; es una colaboración arquitectónica. Trabajamos de cerca con propietarios, diseñadores de interiores y arquitectos para comprender los requerimientos únicos de su espacio, el flujo de la luz y su estética personal.',
-      'Ya sea que esté equipando una residencia costera de nueva construcción o buscando una mesa de comedor singular y distintiva para un loft urbano, nuestro equipo se dedica a guiarle en la selección de maderas, acabados y dimensiones a medida.',
+      'Ya sea que estés equipando una residencia costera de nueva construcción o buscando una mesa de comedor singular y distintiva para un loft urbano, nuestro equipo se dedica a guiarte en la selección de maderas, acabados y dimensiones a medida.',
     ],
   },
 };

@@ -3,7 +3,7 @@ import Header from '../Header';
 import { useLang } from '../../i18n/LanguageContext';
 
 const COPY = {
-  en: { label: 'The People Behind the Craft', title: 'Our Team', subtitle: 'Madera con historia, diseño con futuro.' },
+  en: { label: 'The People Behind the Craft', title: 'Our Team', subtitle: 'Wood with history, design with a future.' },
   es: { label: 'Las Personas Detrás del Oficio', title: 'Nuestro Equipo', subtitle: 'Madera con historia, diseño con futuro.' },
 };
 

@@ -3,7 +3,7 @@ import { useLang } from '../../i18n/LanguageContext';
 
 const COPY = {
   en: { title: 'We look forward to building your legacy.' },
-  es: { title: 'Esperamos construir su legado.' },
+  es: { title: 'Esperamos construir tu legado.' },
 };
 
 export default function ContactClosing() {

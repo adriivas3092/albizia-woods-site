@@ -15,7 +15,7 @@ const COPY = {
     label: 'Mobiliario a Medida',
     title: 'Una colaboración entre el espacio, el material y la visión.',
     steps: [
-      { title: 'Consulta', text: 'Comprendemos su espacio arquitectónico y su intención.' },
+      { title: 'Consulta', text: 'Entendemos tu espacio arquitectónico y tu intención.' },
       { title: 'Diseño y Selección de Materiales', text: 'Seleccionamos maderas costarricenses en armonía con su entorno.' },
       { title: 'Elaboración Artesanal', text: 'Modelado y ensamblaje meticuloso por maestros ebanistas.' },
     ],

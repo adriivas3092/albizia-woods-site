@@ -7,7 +7,7 @@ import { useLang } from '../i18n/LanguageContext';
 const COPY = {
   en: {
     title: ['Rooted in Nature.', 'Crafted for Timelessness.'],
-    subtitle: 'Madera con historia, diseño con futuro.',
+    subtitle: 'Wood with history, design with a future.',
     cta: 'Explore the Portfolio', scroll: 'Scroll',
   },
   es: {

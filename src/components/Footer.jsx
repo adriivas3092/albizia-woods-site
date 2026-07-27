@@ -12,7 +12,7 @@ const COPY = {
   },
   es: {
     philosophy: ['Enraizados en la naturaleza.', 'Creados para perdurar.'],
-    studio: 'Estudio', ourStory: 'Nuestra Historia', bespoke: 'Servicios a Medida', contact: 'Contáctenos',
+    studio: 'Estudio', ourStory: 'Nuestra Historia', bespoke: 'Servicios a Medida', contact: 'Contactanos',
     portfolio: 'Portafolio', architecture: 'Arquitectura', collections: 'Colecciones', materials: 'Materiales',
     connect: 'Conectar', journal: 'Diario',
     privacy: 'Política de Privacidad', terms: 'Términos de Servicio', top: 'Arriba',

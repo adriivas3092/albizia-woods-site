@@ -5,7 +5,7 @@ const STEPS = [
   {
     num: '01',
     en: { title: 'Consultation', desc: 'An initial dialogue to understand the scale, intent, and architectural context of your project.' },
-    es: { title: 'Consulta', desc: 'Un diálogo inicial para comprender la escala, la intención y el contexto arquitectónico de su proyecto.' },
+    es: { title: 'Consulta', desc: 'Un diálogo inicial para entender la escala, la intención y el contexto arquitectónico de tu proyecto.' },
   },
   {
     num: '02',
@@ -20,7 +20,7 @@ const STEPS = [
   {
     num: '04',
     en: { title: 'Design Development', desc: 'Refining the concept through detailed 3D modeling and technical shop drawings for your approval.' },
-    es: { title: 'Desarrollo del Diseño', desc: 'Refinamos el concepto mediante modelado 3D detallado y planos técnicos de taller para su aprobación.' },
+    es: { title: 'Desarrollo del Diseño', desc: 'Refinamos el concepto mediante modelado 3D detallado y planos técnicos de taller para tu aprobación.' },
   },
   {
     num: '05',
@@ -30,7 +30,7 @@ const STEPS = [
   {
     num: '06',
     en: { title: 'Delivery & Installation', desc: 'White-glove placement within your space, ensuring perfect integration.' },
-    es: { title: 'Entrega e Instalación', desc: 'Colocación con guante blanco dentro de su espacio, garantizando una integración perfecta.' },
+    es: { title: 'Entrega e Instalación', desc: 'Colocación con guante blanco dentro de tu espacio, garantizando una integración perfecta.' },
   },
 ];
 

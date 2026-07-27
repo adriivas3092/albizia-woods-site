@@ -27,13 +27,13 @@ const SECTIONS = [
     es: {
       title: 'Recolección de Información',
       blocks: [
-        { p: 'En Albizia Woods creemos en la transparencia y el respeto por su información personal. Cuando usted interactúa con nuestro estudio —ya sea enviando una consulta, suscribiéndose a nuestro diario o interactuando con nuestras plataformas digitales— podemos recopilar ciertos datos personales para atender mejor sus necesidades de arquitectura y diseño.' },
+        { p: 'En Albizia Woods creemos en la transparencia y el respeto por tu información personal. Cuando interactuás con nuestro estudio —ya sea enviando una consulta, suscribiéndote a nuestro diario o interactuando con nuestras plataformas digitales— podemos recopilar ciertos datos personales para atender mejor tus necesidades de arquitectura y diseño.' },
         { p: 'La información que recopilamos puede incluir:' },
         { list: [
           { label: 'Datos de identidad:', text: 'Nombre completo y cargo profesional (si aplica).' },
           { label: 'Datos de contacto:', text: 'Correo electrónico, número de teléfono y direcciones de envío/facturación.' },
-          { label: 'Datos de consulta:', text: 'Detalles sobre sus solicitudes de mobiliario a medida o proyectos de diseño de interiores enviados mediante nuestros formularios.' },
-          { label: 'Datos técnicos:', text: 'Dirección IP, tipo de navegador, identificadores de dispositivo y métricas de uso recopiladas automáticamente mientras navega nuestro sitio.' },
+          { label: 'Datos de consulta:', text: 'Detalles sobre tus solicitudes de mobiliario a medida o proyectos de diseño de interiores enviados mediante nuestros formularios.' },
+          { label: 'Datos técnicos:', text: 'Dirección IP, tipo de navegador, identificadores de dispositivo y métricas de uso recopiladas automáticamente mientras navegás nuestro sitio.' },
         ] },
       ],
     },
@@ -55,12 +55,12 @@ const SECTIONS = [
     es: {
       title: 'Cómo Usamos Sus Datos',
       blocks: [
-        { p: 'La información que recopilamos se emplea exclusivamente para elevar su experiencia con Albizia Woods y cumplir nuestros compromisos con usted. En concreto, usamos sus datos para:' },
+        { p: 'La información que recopilamos se emplea exclusivamente para elevar tu experiencia con Albizia Woods y cumplir nuestros compromisos con vos. En concreto, usamos tus datos para:' },
         { ul: [
           'Responder con prontitud a sus consultas de diseño a medida y a las asesorías de proyecto.',
           'Procesar, elaborar y entregar sus encargos de mobiliario.',
           'Mejorar la arquitectura de nuestro sitio y garantizar una experiencia digital fluida y premium.',
-          'Comunicar novedades del estudio, nuevas adquisiciones de materiales y lanzamientos de colecciones (solo si se ha suscrito a nuestro diario).',
+          'Comunicar novedades del estudio, nuevas adquisiciones de materiales y lanzamientos de colecciones (solo si te suscribiste a nuestro diario).',
         ] },
       ],
     },
@@ -78,7 +78,7 @@ const SECTIONS = [
       title: 'Cookies y Analítica',
       blocks: [
         { p: 'Nuestro sitio utiliza cookies y tecnologías de rastreo similares para comprender cómo se navegan nuestros espacios digitales. Esto nos permite refinar nuestros diseños editoriales y asegurar que nuestro contenido conecte con nuestra audiencia.' },
-        { pre: 'Integramos ', strong: 'Google Analytics', post: ' para agregar datos anonimizados sobre el comportamiento del usuario, como el tiempo en las páginas y la distribución geográfica. Estos datos se usan estrictamente para mejorar el rendimiento y la presentación estética de nuestro sitio. Puede ajustar la configuración de su navegador para rechazar las cookies; sin embargo, esto podría afectar la fluidez de su experiencia de navegación.' },
+        { pre: 'Integramos ', strong: 'Google Analytics', post: ' para agregar datos anonimizados sobre el comportamiento del usuario, como el tiempo en las páginas y la distribución geográfica. Estos datos se usan estrictamente para mejorar el rendimiento y la presentación estética de nuestro sitio. Podés ajustar la configuración de tu navegador para rechazar las cookies; sin embargo, esto podría afectar la fluidez de tu experiencia de navegación.' },
       ],
     },
   },
@@ -95,7 +95,7 @@ const SECTIONS = [
       title: 'Publicidad y Remarketing',
       blocks: [
         { pre: 'Para compartir nuestra artesanía con quienes aprecian el diseño arquitectónico, utilizamos el ', strong: 'Meta Pixel', post: ' (Facebook/Instagram). Esta herramienta nos ayuda a comprender la efectividad de nuestras campañas publicitarias y nos permite ofrecer contenido relevante y curado a usuarios que previamente han mostrado interés en Albizia Woods.' },
-        { p: 'El Meta Pixel puede recopilar datos como su dirección IP, detalles de su navegador y las páginas específicas que visitó en nuestro sitio. Puede desactivar la publicidad segmentada ajustando sus preferencias de anuncios directamente en la configuración de su cuenta de Facebook o Instagram.' },
+        { p: 'El Meta Pixel puede recopilar datos como tu dirección IP, detalles de tu navegador y las páginas específicas que visitaste en nuestro sitio. Podés desactivar la publicidad segmentada ajustando tus preferencias de anuncios directamente en la configuración de tu cuenta de Facebook o Instagram.' },
       ],
     },
   },
@@ -110,7 +110,7 @@ const SECTIONS = [
     es: {
       title: 'Servicios de Terceros',
       blocks: [
-        { p: 'Albizia Woods no vende, alquila ni comercializa su información personal. Solo compartimos los datos necesarios con artesanos, socios logísticos y proveedores de servicios digitales de confianza que nos ayudan a operar nuestro estudio y a entregar sus piezas de forma segura. Todos nuestros socios están sujetos a estrictos acuerdos de confidencialidad y cumplen con estándares globales de protección de datos.' },
+        { p: 'Albizia Woods no vende, alquila ni comercializa tu información personal. Solo compartimos los datos necesarios con artesanos, socios logísticos y proveedores de servicios digitales de confianza que nos ayudan a operar nuestro estudio y a entregar tus piezas de forma segura. Todos nuestros socios están sujetos a estrictos acuerdos de confidencialidad y cumplen con estándares globales de protección de datos.' },
       ],
     },
   },
@@ -132,14 +132,14 @@ const SECTIONS = [
     es: {
       title: 'Sus Derechos de Privacidad',
       blocks: [
-        { p: 'Usted conserva el control total sobre su información personal. Según su jurisdicción, tiene derecho a:' },
+        { p: 'Conservás el control total sobre tu información personal. Según tu jurisdicción, tenés derecho a:' },
         { ul: [
-          'Solicitar acceso a los datos personales que tenemos sobre usted.',
+          'Solicitar acceso a los datos personales que tenemos sobre vos.',
           'Solicitar la corrección de información inexacta o incompleta.',
-          'Solicitar la eliminación de sus datos de nuestros archivos.',
-          'Retirar su consentimiento para comunicaciones de marketing en cualquier momento.',
+          'Solicitar la eliminación de tus datos de nuestros archivos.',
+          'Retirar tu consentimiento para comunicaciones de marketing en cualquier momento.',
         ] },
-        { p: 'Para ejercer cualquiera de estos derechos, contacte directamente a nuestro estudio y atenderemos su solicitud con la máxima prioridad.' },
+        { p: 'Para ejercer cualquiera de estos derechos, contactá directamente a nuestro estudio y atenderemos tu solicitud con la máxima prioridad.' },
       ],
     },
   },
@@ -155,7 +155,7 @@ const SECTIONS = [
     es: {
       title: 'Contáctenos',
       blocks: [
-        { p: 'Si tiene alguna pregunta sobre esta Política de Privacidad o sobre cómo manejamos sus datos, le invitamos a contactar a nuestro estudio. Valoramos el diálogo abierto y estamos aquí para brindarle claridad.' },
+        { p: 'Si tenés alguna pregunta sobre esta Política de Privacidad o sobre cómo manejamos tus datos, te invitamos a contactar a nuestro estudio. Valoramos el diálogo abierto y estamos aquí para brindarte claridad.' },
         { address: ['Albizia Woods Studio', 'San José, Costa Rica'], email: 'studio@albiziawoods.com' },
       ],
     },

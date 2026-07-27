@@ -3,7 +3,7 @@ import Header from '../Header';
 import { useLang } from '../../i18n/LanguageContext';
 
 const COPY = {
-  en: { label: 'Tactile Experience', title: ['The Origin of', 'Timelessness.'], subtitle: 'Madera con historia, diseño con futuro.' },
+  en: { label: 'Tactile Experience', title: ['The Origin of', 'Timelessness.'], subtitle: 'Wood with history, design with a future.' },
   es: { label: 'Experiencia Táctil', title: ['El Origen de la', 'Atemporalidad.'], subtitle: 'Madera con historia, diseño con futuro.' },
 };
 

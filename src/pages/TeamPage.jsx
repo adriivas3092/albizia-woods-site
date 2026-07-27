@@ -18,7 +18,7 @@ export default function TeamPage() {
         title={lang === 'es' ? 'Nuestro Equipo | Albizia Woods' : 'Our Team | Albizia Woods'}
         description={
           lang === 'es'
-            ? 'Conozca al equipo de Albizia Woods: diseño y arquitectura, administración, ebanistería y acabado.'
+            ? 'Conocé al equipo de Albizia Woods: diseño y arquitectura, administración, ebanistería y acabado.'
             : 'Meet the Albizia Woods team: design & architecture, administration, cabinetmaking and finishing.'
         }
       />

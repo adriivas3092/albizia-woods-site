@@ -12,7 +12,7 @@ const COPY = {
   es: {
     label: 'Adquiera una Pieza',
     title: 'Encargue lo Extraordinario.',
-    text: 'Nuestras piezas se hacen por encargo, asegurando que cada objeto reciba el tiempo y la atención que exige. Contacte a nuestro estudio para solicitar precios, muestras de materiales o para conversar adaptaciones arquitectónicas a medida.',
+    text: 'Nuestras piezas se hacen por encargo, asegurando que cada objeto reciba el tiempo y la atención que exige. Contactá a nuestro estudio para solicitar precios, muestras de materiales o para conversar adaptaciones arquitectónicas a medida.',
     primary: 'Solicitar Catálogo y Precios',
     secondary: 'Agendar una Consulta',
   },

@@ -3,7 +3,7 @@ import Header from '../Header';
 import { useLang } from '../../i18n/LanguageContext';
 
 const COPY = {
-  en: { label: 'Start a Dialogue', title: ['Envision Your', 'Space.'], subtitle: 'Madera con historia, diseño con futuro.' },
+  en: { label: 'Start a Dialogue', title: ['Envision Your', 'Space.'], subtitle: 'Wood with history, design with a future.' },
   es: { label: 'Inicie un Diálogo', title: ['Imagine Su', 'Espacio.'], subtitle: 'Madera con historia, diseño con futuro.' },
 };
 

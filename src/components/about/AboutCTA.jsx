@@ -13,7 +13,7 @@ const COPY = {
   es: {
     label: 'Trabaje Con Nosotros',
     title: 'Comencemos la conversación.',
-    text: 'Ya sea que usted sea un arquitecto en busca de piezas para un proyecto de lujo o una persona que busca una herencia atemporal, nuestro estudio está listo para colaborar.',
+    text: 'Ya sea que seás un arquitecto en busca de piezas para un proyecto de lujo o alguien que busca una herencia atemporal, nuestro estudio está listo para colaborar con vos.',
     primary: 'Contactar al Estudio',
     secondary: 'Volver al Inicio',
   },

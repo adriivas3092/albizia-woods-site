@@ -21,10 +21,10 @@ const COPY = {
   },
   es: {
     title: 'Inicie un Diálogo.',
-    text: 'Encargar una pieza a medida a Albizia Woods es una experiencia profundamente personal. Le invitamos a compartir su visión, planos arquitectónicos o conceptos iniciales. Nuestro taller de diseño le responderá para agendar una consulta privada.',
-    name: 'Nombre', namePlaceholder: '¿Cómo debemos dirigirnos a usted?',
-    email: 'Correo', emailPlaceholder: 'Su contacto directo',
-    scope: 'Alcance del Proyecto', scopePlaceholder: 'Seleccione un área de enfoque...',
+    text: 'Encargar una pieza a medida a Albizia Woods es una experiencia profundamente personal. Te invitamos a compartir tu visión, planos arquitectónicos o conceptos iniciales. Nuestro taller de diseño te responderá para agendar una consulta privada.',
+    name: 'Nombre', namePlaceholder: '¿Cómo te llamás?',
+    email: 'Correo', emailPlaceholder: 'Tu contacto directo',
+    scope: 'Alcance del Proyecto', scopePlaceholder: 'Seleccioná un área de enfoque...',
     options: {
       dining: 'Mesa de Comedor Arquitectónica',
       living: 'Mobiliario de Sala y Estar',
@@ -33,7 +33,7 @@ const COPY = {
       other: 'Otro Encargo Único',
     },
     vision: 'Visión y Dimensiones',
-    visionPlaceholder: 'Describa brevemente el espacio, los materiales deseados y las dimensiones aproximadas...',
+    visionPlaceholder: 'Describí brevemente el espacio, los materiales deseados y las dimensiones aproximadas...',
     submit: 'Solicitar Consulta',
   },
 };

@@ -13,7 +13,7 @@ const COPY = {
   es: {
     label: 'Próximos Pasos',
     title: 'Imagine su espacio.',
-    text: 'Ya sea que usted sea un arquitecto en busca de fabricación a medida o un propietario buscando esa pieza distintiva, nuestro equipo de diseño está listo para colaborar.',
+    text: 'Ya sea que seás un arquitecto en busca de fabricación a medida o un propietario que busca esa pieza distintiva, nuestro equipo de diseño está listo para colaborar con vos.',
     primary: 'Iniciar un Encargo',
     secondary: 'Consulta General',
   },

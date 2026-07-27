@@ -15,7 +15,7 @@ const COPY = {
     text: 'La precisión de la máquina le da a nuestro mobiliario su integridad estructural, pero es la mano humana la que le da alma. Creemos que el verdadero lujo debe sentirse antes de verse.',
     features: [
       { title: 'Acabado Táctil', text: 'Cada pieza atraviesa rigurosos protocolos de lijado a mano, avanzando por micro-granos hasta que la superficie se siente similar a la piedra pulida, pero permanece fundamentalmente cálida al tacto.' },
-      { title: 'Pátina Natural', text: 'Rechazamos las lacas sintéticas que atrapan la madera bajo el plástico. Nuestras mezclas de aceites botánicos permiten que la madera respire, garantizando que su mobiliario desarrolle una pátina rica y auténtica a lo largo de décadas de uso.' },
+      { title: 'Pátina Natural', text: 'Rechazamos las lacas sintéticas que atrapan la madera bajo el plástico. Nuestras mezclas de aceites botánicos permiten que la madera respire, garantizando que tu mobiliario desarrolle una pátina rica y auténtica a lo largo de décadas de uso.' },
     ],
   },
 };

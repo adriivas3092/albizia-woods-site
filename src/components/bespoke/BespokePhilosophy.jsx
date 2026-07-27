@@ -14,8 +14,8 @@ const COPY = {
     label: 'Filosofía a Medida',
     title: 'Un mueble no debe simplemente llenar un espacio; debe anclar la arquitectura y elevar el ritual de habitar.',
     paragraphs: [
-      'Nuestro servicio a medida es una invitación a colaborar. Trascendemos la oferta estándar de catálogo para diseñar piezas que responden de forma íntima a su entorno, sus rutinas y sus sensibilidades estéticas.',
-      'A través de un proceso consultivo, fusionamos nuestro profundo conocimiento de las maderas costarricenses con su visión única. Cada dimensión se adapta. Cada acabado es intencional. El resultado es un objeto táctil y monumental, elaborado con una integridad inquebrantable.',
+      'Nuestro servicio a medida es una invitación a colaborar. Trascendemos la oferta estándar de catálogo para diseñar piezas que responden de forma íntima a tu entorno, tus rutinas y tus sensibilidades estéticas.',
+      'A través de un proceso consultivo, fusionamos nuestro profundo conocimiento de las maderas costarricenses con tu visión única. Cada dimensión se adapta. Cada acabado es intencional. El resultado es un objeto táctil y monumental, elaborado con una integridad inquebrantable.',
     ],
   },
 };

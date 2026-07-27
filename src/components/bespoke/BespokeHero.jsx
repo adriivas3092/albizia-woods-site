@@ -3,7 +3,7 @@ import Header from '../Header';
 import { useLang } from '../../i18n/LanguageContext';
 
 const COPY = {
-  en: { label: 'Custom Furniture Experience', title: ['The Luxury of', 'Personalized Craft.'], subtitle: 'Madera con historia, diseño con futuro.' },
+  en: { label: 'Custom Furniture Experience', title: ['The Luxury of', 'Personalized Craft.'], subtitle: 'Wood with history, design with a future.' },
   es: { label: 'Experiencia de Mobiliario a Medida', title: ['El Lujo de la', 'Artesanía Personalizada.'], subtitle: 'Madera con historia, diseño con futuro.' },
 };
 

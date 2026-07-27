@@ -3,7 +3,7 @@ import Header from '../Header';
 import { useLang } from '../../i18n/LanguageContext';
 
 const COPY = {
-  en: { title: ['The Art of', 'Belonging.'], subtitle: 'Madera con historia, diseño con futuro.' },
+  en: { title: ['The Art of', 'Belonging.'], subtitle: 'Wood with history, design with a future.' },
   es: { title: ['El Arte de', 'Pertenecer.'], subtitle: 'Madera con historia, diseño con futuro.' },
 };
 
