@@ -4,13 +4,13 @@ import { useLang } from '../i18n/LanguageContext';
 const COPY = {
   en: {
     label: 'Artisan Details',
-    title: 'The integrity of the joint, the warmth of the grain.',
-    text: 'We honor the traditions of Costa Rican woodworking, using slow, deliberate techniques that celebrate natural imperfections. Mortise and tenon joinery ensures our pieces last generations.',
+    title: 'The art of creating unique pieces',
+    text: 'Every piece of furniture at Albizia Woods comes to life through the dedication, experience, and precision of our cabinetmakers, who transform wood into unique pieces with an exceptional handcrafted finish.',
   },
   es: {
     label: 'Detalles Artesanales',
-    title: 'La integridad de la unión, la calidez de la veta.',
-    text: 'Honramos las tradiciones de la ebanistería costarricense, con técnicas lentas y deliberadas que celebran las imperfecciones naturales. El ensamble de caja y espiga garantiza que nuestras piezas perduren por generaciones.',
+    title: 'El arte de crear piezas únicas',
+    text: 'Cada mueble de Albizia Woods cobra vida gracias a la dedicación, experiencia y precisión de nuestros ebanistas, quienes transforman la madera en piezas únicas con un acabado artesanal excepcional.',
   },
 };
 
@@ -21,14 +21,20 @@ export default function Craftsmanship() {
   return (
     <section className={styles.craft}>
       <div className={styles.textureBg} style={{ backgroundImage: 'url(/texture.webp)' }}></div>
-      <div className={`container ${styles.grid}`}>
-        <div className={styles.imageCol}>
-           <img src="/artisan_details.webp" alt="Woodworker carving wood with a chisel" className={styles.image} loading="lazy" decoding="async" />
-        </div>
+      <div className={`container ${styles.inner}`}>
         <div className={styles.textCol}>
           <span className={styles.label}>{c.label}</span>
           <h2>{c.title}</h2>
           <p>{c.text}</p>
+        </div>
+
+        <div className={styles.imageRow}>
+          <div className={styles.imageCol}>
+            <img src="/artisan_details.webp" alt="Woodworker carving wood with a chisel" className={styles.image} loading="lazy" decoding="async" />
+          </div>
+          <div className={styles.imageCol}>
+            <img src="/artisan_finishing.jpg" alt="Artisan hand-sanding a wood panel" className={styles.image} loading="lazy" decoding="async" />
+          </div>
         </div>
       </div>
     </section>
