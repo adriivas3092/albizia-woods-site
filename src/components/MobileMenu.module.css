@@ -10,6 +10,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2.5rem;
+  padding: 5rem 1.5rem;
+  overflow-y: auto;
   animation: fadeOverlay 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
@@ -39,25 +42,25 @@
 .nav {
   display: flex;
   flex-direction: column;
-  gap: var(--space-md);
+  gap: 1.1rem;
   text-align: center;
 }
 
 .nav a {
   font-family: var(--font-serif);
-  font-size: clamp(2.5rem, 8vw, 4rem);
-  font-style: italic;
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+  line-height: 1.1;
+  letter-spacing: 0.01em;
   text-decoration: none;
   color: var(--text-light);
   opacity: 0;
-  transform: translateY(20px);
-  animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(14px);
+  animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transition: opacity 0.3s ease;
 }
 
 .nav a:hover {
-  opacity: 0.6;
-  transform: scale(1.05);
+  opacity: 0.55;
 }
 
 @keyframes slideUp {
@@ -69,9 +72,8 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-top: var(--space-lg);
   opacity: 0;
-  animation: slideUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 .langBtn {
