@@ -1,13 +1,16 @@
-/* Custom Fonts: NT Wagner & Acumin Regular should be loaded here or via your HTML */
+/* Custom Fonts: served over the web so they render on every device (incl. mobile).
+   local() is tried first for users who already have the font installed. */
 @font-face {
   font-family: 'NT Wagner';
-  src: local('NT Wagner');
+  src: local('NT Wagner'),
+       url('/fonts/nt-wagner.otf') format('opentype');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Acumin Regular';
-  src: local('Acumin Regular');
+  src: local('Acumin Regular'), local('Acumin Pro'),
+       url('/fonts/acumin-regular.otf') format('opentype');
   font-display: swap;
 }
 
