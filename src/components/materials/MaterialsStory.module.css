@@ -32,7 +32,7 @@
   display: block;
   font-family: var(--font-sans);
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: 0.862rem;
   letter-spacing: 0.15em;
   color: var(--text-secondary);
   margin-bottom: var(--space-md);
@@ -54,7 +54,7 @@
 
 .editorial p {
   font-family: var(--font-sans);
-  font-size: 1.15rem;
+  font-size: 1.322rem;
   line-height: 1.7;
   color: var(--text-secondary);
 }

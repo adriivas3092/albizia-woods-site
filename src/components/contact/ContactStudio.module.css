@@ -38,7 +38,7 @@
 
 .infoBlock p {
   font-family: var(--font-sans);
-  font-size: 1.15rem;
+  font-size: 1.322rem;
   line-height: 1.7;
   color: var(--text-secondary);
 }
@@ -53,7 +53,7 @@
 
 .detailItem h4 {
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.862rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--text-secondary);
@@ -62,7 +62,7 @@
 
 .detailItem p, .detailItem a {
   font-family: var(--font-sans);
-  font-size: 1rem;
+  font-size: 1.15rem;
   color: var(--text-primary);
   text-decoration: none;
   line-height: 1.5;

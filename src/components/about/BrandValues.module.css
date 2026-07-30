@@ -32,7 +32,7 @@
 
 .card span {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   color: var(--text-secondary);
   margin-bottom: 1rem;
 }
@@ -46,7 +46,7 @@
 
 .card p {
   font-family: var(--font-sans);
-  font-size: 1.05rem;
+  font-size: 1.208rem;
   color: var(--text-secondary);
   line-height: 1.6;
   max-width: 90%;

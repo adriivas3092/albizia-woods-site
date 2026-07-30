@@ -25,7 +25,7 @@
 
 .philosophy {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: 1.438rem;
   font-style: italic;
   color: rgba(255, 255, 255, 0.7);
   line-height: 1.6;
@@ -45,7 +45,7 @@
 
 .column h4 {
   font-family: var(--font-sans);
-  font-size: 0.7rem;
+  font-size: 0.805rem;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: rgba(255, 255, 255, 0.3);
@@ -54,7 +54,7 @@
 
 .column a {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   transition: color 0.4s ease, transform 0.4s ease;
@@ -73,7 +73,7 @@
   border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding-top: var(--space-md);
   font-family: var(--font-sans);
-  font-size: 0.7rem;
+  font-size: 0.805rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: rgba(255, 255, 255, 0.4);
@@ -99,7 +99,7 @@
   border: none;
   color: rgba(255, 255, 255, 0.4);
   font-family: var(--font-sans);
-  font-size: 0.7rem;
+  font-size: 0.805rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   cursor: pointer;

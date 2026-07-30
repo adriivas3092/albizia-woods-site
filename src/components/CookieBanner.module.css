@@ -37,14 +37,14 @@
 
 .content h3 {
   font-family: var(--font-serif);
-  font-size: 1.25rem;
+  font-size: 1.438rem;
   margin-bottom: 0.5rem;
   color: var(--bg-primary);
 }
 
 .content p {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   line-height: 1.6;
   color: rgba(226, 223, 210, 0.8); /* Derived from --bg-primary with opacity */
   margin-bottom: 1.5rem;
@@ -59,7 +59,7 @@
 
 .btnAccept, .btnDecline, .btnLearn {
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.862rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   padding: 0.6rem 1.2rem;

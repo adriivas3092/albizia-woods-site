@@ -32,7 +32,7 @@
   display: block;
   font-family: var(--font-sans);
   text-transform: uppercase;
-  font-size: 0.75rem;
+  font-size: 0.862rem;
   letter-spacing: 0.15em;
   color: var(--text-secondary);
   margin-bottom: var(--space-sm);
@@ -48,7 +48,7 @@
 
 .header p {
   font-family: var(--font-sans);
-  font-size: 1.1rem;
+  font-size: 1.265rem;
   color: var(--text-secondary);
 }
 
@@ -85,14 +85,14 @@
 
 .stepNum {
   font-family: var(--font-serif);
-  font-size: 1.2rem;
+  font-size: 1.38rem;
   font-style: italic;
   color: var(--text-secondary);
   margin-bottom: 0.5rem;
 }
 
 .circleStep h3 {
-  font-size: 1.1rem;
+  font-size: 1.265rem;
   color: var(--text-primary);
   font-weight: 400;
   margin-bottom: 0.25rem;
@@ -101,7 +101,7 @@
 
 .esTitle {
   font-family: var(--font-sans);
-  font-size: 0.8rem;
+  font-size: 0.92rem;
   color: var(--text-secondary);
   font-style: italic;
   margin-bottom: 0.75rem;
@@ -109,7 +109,7 @@
 
 .team {
   font-family: var(--font-sans);
-  font-size: 0.65rem;
+  font-size: 0.747rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-primary);
@@ -124,7 +124,7 @@
   }
   
   .circleStep h3 {
-    font-size: 1rem;
+    font-size: 1.15rem;
   }
 }
 

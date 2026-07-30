@@ -62,7 +62,7 @@
 .nav {
   display: flex;
   gap: var(--space-md);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -98,7 +98,7 @@
 .subtitle {
   font-family: var(--font-sans);
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1.38rem;
   max-width: 600px;
   letter-spacing: 0.05em;
   text-transform: uppercase;

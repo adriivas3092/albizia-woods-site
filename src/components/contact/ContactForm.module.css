@@ -27,7 +27,7 @@
 
 .infoColumn p {
   font-family: var(--font-sans);
-  font-size: 1.1rem;
+  font-size: 1.265rem;
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: var(--space-lg);
@@ -48,7 +48,7 @@
 
 .methodLabel {
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.862rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--text-secondary);
@@ -56,7 +56,7 @@
 
 .methodLink {
   font-family: var(--font-sans);
-  font-size: 1.2rem;
+  font-size: 1.38rem;
   color: var(--text-primary);
   text-decoration: none;
   position: relative;
@@ -88,7 +88,7 @@
   border: 1px solid var(--text-secondary);
   padding: 1rem 2rem;
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   cursor: pointer;
@@ -127,7 +127,7 @@
 
 .inputGroup label {
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.862rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-secondary);
@@ -140,7 +140,7 @@
   border-bottom: 1px solid rgba(81, 132, 151, 0.3); /* Soft subtle border */
   padding: 0.8rem 0;
   font-family: var(--font-sans);
-  font-size: 1.1rem;
+  font-size: 1.265rem;
   color: var(--text-primary);
   outline: none;
   transition: border-color 0.3s ease;
@@ -188,7 +188,7 @@ textarea.minimalInput {
   border: none;
   padding: 1.2rem 2rem;
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   cursor: pointer;
@@ -237,7 +237,7 @@ textarea.minimalInput {
 
 .stateOverlay p {
   font-family: var(--font-sans);
-  font-size: 1.1rem;
+  font-size: 1.265rem;
   color: var(--text-secondary);
 }
 
@@ -266,7 +266,7 @@ textarea.minimalInput {
   color: var(--text-primary);
   padding: 0.8rem 1.5rem;
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.862rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   cursor: pointer;

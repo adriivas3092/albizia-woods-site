@@ -21,7 +21,7 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-secondary);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
 }
 
 .layout {
@@ -47,7 +47,7 @@
 
 .nav a {
   font-family: var(--font-sans);
-  font-size: 0.9rem;
+  font-size: 1.035rem;
   color: var(--text-secondary);
   text-decoration: none;
   transition: color 0.3s ease;
@@ -89,7 +89,7 @@
 
 .section p, .section ul {
   font-family: var(--font-sans);
-  font-size: 1.1rem;
+  font-size: 1.265rem;
   line-height: 1.8;
   color: var(--text-secondary);
   margin-bottom: 1rem;

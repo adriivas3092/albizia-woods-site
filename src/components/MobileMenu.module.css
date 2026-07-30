@@ -28,7 +28,7 @@
   border: none;
   color: var(--text-light);
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   letter-spacing: 0.15em;
   cursor: pointer;
   transition: opacity 0.3s ease;
@@ -83,7 +83,7 @@
   padding: 0;
   color: var(--text-light);
   font-family: var(--font-sans);
-  font-size: 0.9rem;
+  font-size: 1.035rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   opacity: 0.55;
@@ -105,7 +105,7 @@
   bottom: var(--space-lg);
   text-align: center;
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.862rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   opacity: 0;

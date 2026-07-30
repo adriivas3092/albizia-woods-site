@@ -19,7 +19,7 @@
 
 .content p {
   font-family: var(--font-sans);
-  font-size: 1.1rem;
+  font-size: 1.265rem;
   color: var(--text-secondary);
   margin-bottom: var(--space-lg);
   line-height: 1.6;
@@ -30,7 +30,7 @@
   font-family: var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 0.9rem;
+  font-size: 1.035rem;
   padding: 1rem 3rem;
   background-color: var(--bg-dark);
   color: var(--text-light);

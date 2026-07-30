@@ -23,7 +23,7 @@
 
 .intro p {
   font-family: var(--font-sans);
-  font-size: 1.15rem;
+  font-size: 1.322rem;
   line-height: 1.7;
   color: var(--text-secondary);
 }
@@ -47,7 +47,7 @@
 
 .formGroup label {
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.862rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--text-secondary);
@@ -62,7 +62,7 @@
   border-bottom: 1px solid rgba(0,0,0,0.2);
   padding: 0.75rem 0;
   font-family: var(--font-serif);
-  font-size: 1.1rem;
+  font-size: 1.265rem;
   color: var(--text-primary);
   transition: border-color 0.3s ease;
 }
@@ -78,7 +78,7 @@
 .formGroup textarea::placeholder {
   color: rgba(0,0,0,0.3);
   font-family: var(--font-sans);
-  font-size: 0.9rem;
+  font-size: 1.035rem;
 }
 
 .submitBtn {
@@ -88,7 +88,7 @@
   color: var(--bg-primary);
   border: none;
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   cursor: pointer;

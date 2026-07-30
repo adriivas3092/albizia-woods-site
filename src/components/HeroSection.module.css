@@ -70,7 +70,7 @@
 .nav {
   display: flex;
   gap: var(--space-xl);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -133,7 +133,7 @@
 
 .cta {
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.862rem;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   color: var(--text-light);
@@ -221,7 +221,7 @@
 
 .scrollText {
   font-family: var(--font-sans);
-  font-size: 0.65rem;
+  font-size: 0.747rem;
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }

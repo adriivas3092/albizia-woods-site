@@ -63,7 +63,7 @@
   font-family: var(--font-sans);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   transition: opacity 0.3s ease;
   position: relative;
 }

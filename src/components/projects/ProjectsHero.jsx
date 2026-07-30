@@ -25,7 +25,7 @@ export default function ProjectsHero() {
       <Header />
 
       <div className={`container ${styles.content}`}>
-        <span className="animate-fade-in" style={{ display: 'block', letterSpacing: '0.15em', textTransform: 'uppercase', fontSize: '0.8rem', marginBottom: '1.5rem', color: 'rgba(255,255,255,0.7)'}}>{c.label}</span>
+        <span className="animate-fade-in" style={{ display: 'block', letterSpacing: '0.15em', textTransform: 'uppercase', fontSize: '0.92rem', marginBottom: '1.5rem', color: 'rgba(255,255,255,0.7)'}}>{c.label}</span>
         <h1 className="animate-fade-in">
           {c.title[0]}<br/>{c.title[1]}
         </h1>

@@ -40,7 +40,7 @@
 
 .header p {
   font-family: var(--font-sans);
-  font-size: 1.1rem;
+  font-size: 1.265rem;
   color: var(--text-secondary);
   line-height: 1.6;
 }
@@ -98,7 +98,7 @@
 
 .meta p {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.977rem;
   color: var(--text-secondary);
   text-transform: uppercase;
   letter-spacing: 0.05em;
