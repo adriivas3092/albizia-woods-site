@@ -7,7 +7,7 @@
 .layout {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xxl);
+  gap: var(--space-lg);
 }
 
 .text {
