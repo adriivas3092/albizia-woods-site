@@ -1,14 +1,12 @@
 import ProjectsHero from '../components/projects/ProjectsHero';
 import SEO from '../components/SEO';
-import ProjectsEditorial from '../components/projects/ProjectsEditorial';
-import ProjectsContext from '../components/projects/ProjectsContext';
-import ProjectsDetails from '../components/projects/ProjectsDetails';
+import ProjectsCategories from '../components/projects/ProjectsCategories';
 import ProjectsInquiryCTA from '../components/projects/ProjectsInquiryCTA';
 import Footer from '../components/Footer';
 import { useEffect } from 'react';
 
 export default function ProjectsPage() {
-  
+
   // Scroll to top on load
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -17,9 +15,7 @@ export default function ProjectsPage() {
   return (
     <div style={{ backgroundColor: 'var(--bg-primary)' }}>
       <ProjectsHero />
-      <ProjectsEditorial />
-      <ProjectsContext />
-      <ProjectsDetails />
+      <ProjectsCategories />
       <ProjectsInquiryCTA />
       <Footer />
     </div>
