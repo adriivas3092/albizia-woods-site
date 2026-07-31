@@ -45,7 +45,6 @@ export default function Footer() {
           <div className={styles.column}>
             <h4>{c.portfolio}</h4>
             <Link to="/projects">{c.architecture}</Link>
-            <Link to="/collections">{c.collections}</Link>
             <Link to="/materials">{c.materials}</Link>
           </div>
           <div className={styles.column}>
