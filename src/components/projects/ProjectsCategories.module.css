@@ -3,83 +3,177 @@
   background-color: var(--bg-primary);
 }
 
-.category {
-  margin-bottom: var(--space-xl);
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
 }
 
-.category:last-child {
-  margin-bottom: 0;
+.card {
+  width: 100%;
 }
 
-.header {
-  margin-bottom: var(--space-lg);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: var(--space-sm);
-}
-
-.label {
+.cardBtn {
+  position: relative;
   display: block;
+  width: 100%;
+  aspect-ratio: 4/5;
+  overflow: hidden;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  background-color: var(--bg-dark);
+}
+
+.cardBtn:disabled {
+  cursor: default;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.cardBtn:not(:disabled):hover .cover {
+  transform: scale(1.05);
+}
+
+.coverPlaceholder {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-dark);
+}
+
+.cardOverlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  text-align: left;
+  padding: var(--space-md);
+  color: var(--text-light);
+  background: linear-gradient(to top, rgba(19, 73, 96, 0.75) 0%, rgba(19, 73, 96, 0.15) 45%, rgba(19, 73, 96, 0.05) 100%);
+}
+
+.cardLabel {
   font-family: var(--font-sans);
   text-transform: uppercase;
   font-size: 0.862rem;
   letter-spacing: 0.15em;
-  color: var(--text-secondary);
-  margin-bottom: var(--space-sm);
+  opacity: 0.85;
+  margin-bottom: 0.75rem;
 }
 
-.header h2 {
-  font-size: clamp(2rem, 4vw, 3.25rem);
-  color: var(--bg-dark);
+.cardOverlay h2 {
+  font-family: var(--font-serif);
+  color: var(--text-light);
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  line-height: 1.05;
+  margin-bottom: 1rem;
 }
 
-.grid {
+.cardCta {
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  font-size: 0.862rem;
+  letter-spacing: 0.15em;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/* Lightbox gallery */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  background-color: rgba(19, 73, 96, 0.97);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  color: var(--text-light);
+  overflow-y: auto;
+  animation: fadeLightbox 0.4s ease forwards;
+}
+
+@keyframes fadeLightbox {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.lightboxBar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-sm) var(--space-md);
+  background-color: rgba(19, 73, 96, 0.85);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.lightboxBar h3 {
+  font-family: var(--font-serif);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  color: var(--text-light);
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-light);
+  font-family: var(--font-sans);
+  text-transform: uppercase;
+  font-size: 0.977rem;
+  letter-spacing: 0.15em;
+  transition: opacity 0.3s ease;
+}
+
+.closeBtn:hover {
+  opacity: 0.6;
+}
+
+.gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-sm);
+  padding: var(--space-md);
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.item {
+.galleryItem {
   position: relative;
   aspect-ratio: 4/3;
   overflow: hidden;
 }
 
-.item img {
+.galleryItem img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.item:hover img {
-  transform: scale(1.04);
-}
-
-.placeholder {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  aspect-ratio: 16/6;
-  background-color: var(--bg-secondary);
-  border: 1px dashed rgba(19, 73, 96, 0.25);
-}
-
-.placeholder span {
-  font-family: var(--font-sans);
-  text-transform: uppercase;
-  font-size: 0.862rem;
-  letter-spacing: 0.15em;
-  color: var(--text-secondary);
 }
 
 @media (max-width: 900px) {
-  .grid {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .cardBtn {
+    aspect-ratio: 16/10;
+  }
+  .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 560px) {
-  .grid {
+  .gallery {
     grid-template-columns: 1fr;
   }
 }

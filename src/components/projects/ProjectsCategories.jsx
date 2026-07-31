@@ -1,9 +1,11 @@
+import { useState, useEffect } from 'react';
 import styles from './ProjectsCategories.module.css';
 import ScrollReveal from '../ScrollReveal';
 import { useLang } from '../../i18n/LanguageContext';
 
 // Auto-import every image dropped into each category folder (no code change needed
-// when adding photos — just drop files in the folder and rebuild).
+// when adding photos — just drop files in the folder and rebuild). The first image
+// (alphabetically) is used as the category cover; all of them fill the gallery.
 const residImgs = import.meta.glob(
   '../../assets/projects/residenciales/*.{jpg,jpeg,png,webp,JPG,JPEG,PNG,WEBP}',
   { eager: true, import: 'default' }
@@ -24,40 +26,73 @@ const CATEGORIES = [
 ];
 
 const COPY = {
-  en: { label: 'By Category', empty: 'Photos coming soon' },
-  es: { label: 'Por Categoría', empty: 'Fotografías pendientes' },
+  en: { label: 'Projects', empty: 'Photos coming soon', close: 'Close', view: 'View gallery' },
+  es: { label: 'Proyectos', empty: 'Fotografías pendientes', close: 'Cerrar', view: 'Ver galería' },
 };
 
 export default function ProjectsCategories() {
   const { lang } = useLang();
   const c = COPY[lang];
+  const [open, setOpen] = useState(null);
+
+  useEffect(() => {
+    document.body.style.overflow = open ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [open]);
+
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === 'Escape') setOpen(null); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
 
   return (
     <section className={styles.section}>
-      <div className="container">
-        {CATEGORIES.map((cat) => (
-          <div key={cat.key} className={styles.category}>
-            <ScrollReveal className={styles.header}>
-              <span className={styles.label}>{c.label}</span>
-              <h2>{cat[lang]}</h2>
+      <div className={`container ${styles.cards}`}>
+        {CATEGORIES.map((cat) => {
+          const hasImages = cat.images.length > 0;
+          const cover = hasImages ? cat.images[0] : null;
+          return (
+            <ScrollReveal key={cat.key} className={styles.card}>
+              <button
+                type="button"
+                className={styles.cardBtn}
+                onClick={() => hasImages && setOpen(cat)}
+                disabled={!hasImages}
+              >
+                {cover ? (
+                  <img src={cover} alt={cat[lang]} className={styles.cover} loading="lazy" decoding="async" />
+                ) : (
+                  <div className={styles.coverPlaceholder} />
+                )}
+                <div className={styles.cardOverlay}>
+                  <span className={styles.cardLabel}>{c.label}</span>
+                  <h2>{cat[lang]}</h2>
+                  <span className={styles.cardCta}>{hasImages ? c.view : c.empty}</span>
+                </div>
+              </button>
             </ScrollReveal>
-
-            {cat.images.length > 0 ? (
-              <div className={styles.grid}>
-                {cat.images.map((src, i) => (
-                  <ScrollReveal key={i} className={styles.item}>
-                    <img src={src} alt={`${cat[lang]} ${i + 1}`} loading="lazy" decoding="async" />
-                  </ScrollReveal>
-                ))}
-              </div>
-            ) : (
-              <div className={styles.placeholder}>
-                <span>{c.empty}</span>
-              </div>
-            )}
-          </div>
-        ))}
+          );
+        })}
       </div>
+
+      {open && (
+        <div className={styles.lightbox} role="dialog" aria-modal="true" aria-label={open[lang]}>
+          <div className={styles.lightboxBar}>
+            <h3>{open[lang]}</h3>
+            <button className={styles.closeBtn} onClick={() => setOpen(null)} aria-label={c.close}>
+              {c.close}
+            </button>
+          </div>
+          <div className={styles.gallery}>
+            {open.images.map((src, i) => (
+              <div key={i} className={styles.galleryItem}>
+                <img src={src} alt={`${open[lang]} ${i + 1}`} loading="lazy" decoding="async" />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </section>
   );
 }
