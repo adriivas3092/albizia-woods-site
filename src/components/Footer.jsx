@@ -39,7 +39,6 @@ export default function Footer() {
           <div className={styles.column}>
             <h4>{c.studio}</h4>
             <Link to="/about">{c.ourStory}</Link>
-            <Link to="/bespoke">{c.bespoke}</Link>
             <Link to="/contact">{c.contact}</Link>
           </div>
           <div className={styles.column}>

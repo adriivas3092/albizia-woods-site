@@ -31,7 +31,7 @@ export default function ProjectsInquiryCTA() {
         <h2>{c.title}</h2>
         <p>{c.text}</p>
         <div className={styles.actions}>
-          <Link to="/bespoke" className={styles.btnPrimary}>{c.primary}</Link>
+          <Link to="/contact" className={styles.btnPrimary}>{c.primary}</Link>
           <a href="mailto:contact@albiziawoods.com" className={styles.btnSecondary}>{c.secondary}</a>
         </div>
       </div>
