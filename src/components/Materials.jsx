@@ -6,7 +6,7 @@ const MATERIALS = [
   { en: 'Glass', es: 'Vidrio', image: '/material_vidrio.webp' },
   { en: 'Upholstery', es: 'Tapicería', image: '/material_tapiceria.webp' },
   { en: 'Stone', es: 'Piedra', image: '/material_piedra.webp' },
-  { en: 'Lighting', es: 'Iluminación', image: '/material_iluminacion.webp' },
+  { en: 'Lighting', es: 'Iluminación', image: '/material_iluminacion.jpg' },
 ];
 
 const COPY = {
