@@ -43,8 +43,8 @@
 
 .materialGrid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: var(--space-md);
+  grid-template-columns: repeat(5, 1fr);
+  gap: var(--space-sm);
 }
 
 .materialCard {
@@ -55,7 +55,7 @@
 
 .imageWrapper {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 3/4;
   overflow: hidden;
   background-color: #1a1a1a;
 }
@@ -84,7 +84,7 @@
 @media (max-width: 1024px) {
   .materialGrid {
     grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-lg);
+    gap: var(--space-md);
   }
 }
 
